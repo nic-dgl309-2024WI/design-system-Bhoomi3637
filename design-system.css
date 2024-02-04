@@ -33,12 +33,12 @@ ol {
 a {
   text-decoration: none;
 }
-.top-navbar,
-.side_bar {
+.top__navbar,
+.side__bar {
   display: none;
 }
 
-.mobile_navbar {
+.navbar__mobile {
   position: relative;
 }
 .content {
@@ -49,15 +49,15 @@ a {
   background-color: white;
   padding: 10px;
 }
-.content a {
+.navbar-mobile__content a {
   display: block;
 }
-
+/* toggel side*/
 .toggle {
   float: right;
   display: block;
 }
 
-.content {
+.navbar-mobile__content {
   display: none; /* Hide content initially on small screens */
 }
