@@ -37,3 +37,15 @@ a{
 .side_bar {
   display: none;
 }
+
+.mobile_navbar {
+  position: relative;
+}
+.content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position below the navbar */
+  left: 0;
+  background-color: white;
+  padding: 10px;
+}
