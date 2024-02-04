@@ -35,6 +35,7 @@ a {
   text-decoration: none;
   color: var(--clr-primary-text);
 }  
+/*for active page*/
 /** hide top-navbar and sidebar*/
 .top__navbar,
 .side__bar {
