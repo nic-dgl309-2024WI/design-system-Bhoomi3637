@@ -79,6 +79,8 @@
     .navbar__mobile{
       display: none;
     }
-  
+  a{
+    color: var(--clr-secondary-text);
+  }
   
   }
