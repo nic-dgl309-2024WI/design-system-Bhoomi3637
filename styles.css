@@ -3,9 +3,8 @@
     --clr-primary-bg: #3A3B5A;
     --clr-secondary-text: #2A2B41; 
     --clr-secondary-bg:#DAE2E1;
-    --clr-accent: #833440; /* dark grey*/
-    --clr-light: #f2f2f2; /*light grey*/
-    --clr-white: #fff; /*white*/
+    --clr-accent: #833440; 
+    
   }
   
   /* Border Box Fix */
