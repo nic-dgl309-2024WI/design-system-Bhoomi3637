@@ -33,3 +33,7 @@ ol {
 a{
   text-decoration: none;
 }
+.top-navbar,
+.side_bar {
+  display: none;
+}
