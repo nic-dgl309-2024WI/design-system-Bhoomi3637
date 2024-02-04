@@ -65,6 +65,9 @@ a {
 /*Destktop*/
 @media only screen and (min-width: 768px) {
 
-
+  .top__navbar,
+  .side__bar{
+    display: block;
+  }
 
 }
