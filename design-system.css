@@ -30,7 +30,7 @@ ul,
 ol {
   padding: 0;
 }
-a{
+a {
   text-decoration: none;
 }
 .top-navbar,
@@ -48,4 +48,16 @@ a{
   left: 0;
   background-color: white;
   padding: 10px;
+}
+.content a {
+  display: block;
+}
+
+.toggle {
+  float: right;
+  display: block;
+}
+
+.content {
+  display: none; /* Hide content initially on small screens */
 }
