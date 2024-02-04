@@ -79,6 +79,11 @@
     .navbar__mobile{
       display: none;
     }
+    /***top navbar content*/
+    .top__navbar{
+        display: flex;
+        gap: 80%;
+    }
   a{
     color: var(--clr-secondary-text);
   }
