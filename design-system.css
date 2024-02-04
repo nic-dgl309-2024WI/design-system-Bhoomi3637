@@ -69,5 +69,9 @@ a {
   .side__bar{
     display: block;
   }
+  .navbar__mobile{
+    display: none;
+  }
+
 
 }
