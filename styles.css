@@ -105,6 +105,7 @@ color: #2A2B41;
   }
   /***top navbar content*/
   .top__navbar {
+    padding: 2%;
     display: flex;
     gap: 80%;
   }
