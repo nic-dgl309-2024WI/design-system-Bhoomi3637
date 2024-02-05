@@ -3,6 +3,9 @@ a {
     color: var(--clr-primary-text);
   }  
   /*for active page*/
+  .active{
+    color: var(--clr-light);
+  }
   /** hide top-navbar and sidebar*/
   .top__navbar,
   .side__bar {
