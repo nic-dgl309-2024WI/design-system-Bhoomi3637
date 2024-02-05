@@ -55,7 +55,11 @@ a {
     .top__navbar {
       padding: 2%;
       display: flex;
-      gap: 80%;
+      gap: 70%;
+    }
+    .top-navbar__content{
+      display: flex;
+      gap: 20px;
     }
     
   }
