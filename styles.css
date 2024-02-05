@@ -98,7 +98,8 @@ color: #2A2B41;
   .top__navbar,
   .side__bar {
     display: block;
-    background-color: var(--clr-secondary-bg);
+    background-color: var(--clr-primary-bg);
+    color: var(--clr-primary-text);
   }
   .navbar__mobile {
     display: none;
@@ -109,7 +110,5 @@ color: #2A2B41;
     display: flex;
     gap: 80%;
   }
-  a {
-    color: var(--clr-secondary-text);
-  }
+  
 }
