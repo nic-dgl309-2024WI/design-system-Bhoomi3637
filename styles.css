@@ -69,6 +69,30 @@ a {
 a:hover {
   background-color: var(--clr-light);
 }
+/*color for swatches*/
+.bg__primary{
+  background-color: #3A3B5A;
+  color: white;
+}
+.text__primary
+{
+  background-color: #fff;
+  color:#3A3B5A ;
+}
+
+.accent{
+  background-color: #833440;
+  color: #fff;
+}
+.bg__secondary{
+background-color: #DAE2E1;
+color: #2A2B41;
+
+}
+.text__secondary{
+  background-color:#2A2B41 ;
+  color: #DAE2E1;
+}
 /*Destktop*/
 @media only screen and (min-width: 768px) {
   .top__navbar,
