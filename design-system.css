@@ -11,10 +11,14 @@ a {
   .side__bar {
     display: none;
   }
-  
+  /* sidebar_heading*/
+  .sidebar__heading{
+    padding: 2% 0% ;
+  }
   .navbar__mobile {
     position: relative;
     background-color: var(--clr-primary-bg);
+    color: var(--clr-primary-text);
   }
   .content {
     display: none;
