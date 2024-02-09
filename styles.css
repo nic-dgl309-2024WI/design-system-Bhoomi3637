@@ -11,6 +11,19 @@
   --font-heading: 'Montserrat', sans-serif;
   --font-body: 'Roboto', sans-serif;
 }
+/**Font size**/
+:root {
+  --h1-size: 36px;
+  --h2-size: 24px;
+  --h3-size: 18px;
+  --body-size: 16px;
+}
+/** Font Weight **/
+:root{
+  --regular-font:400;
+  --bold-font:700;
+}
+
 /* Border Box Fix */
 * {
   box-sizing: border-box;
