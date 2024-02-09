@@ -6,7 +6,11 @@
   --clr-accent: #833440;
   --clr-light: #a6eae2;
 }
-
+/* Font Families */
+:root {
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+}
 /* Border Box Fix */
 * {
   box-sizing: border-box;
