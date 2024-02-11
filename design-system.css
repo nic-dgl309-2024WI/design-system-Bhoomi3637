@@ -106,5 +106,9 @@ a {
       display: flex;
       gap: 20px;
     }
-    
+    /*=====Typography===*/
+    .Utilities__layout{
+      display: grid;
+      grid-template-columns:auto auto;
+    }
   }
