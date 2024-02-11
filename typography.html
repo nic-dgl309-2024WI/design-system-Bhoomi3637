@@ -149,25 +149,30 @@
     <main>
       <h1 class="ff-Montserrat lh-heading">Font Family</h1>
       <div class="ff-Montserrat">
-        <h2 class="lh-heading">Montserrat Font-family</h2>
+        <h2 class="lh-heading ls-heading">Montserrat Font-family</h2>
+        <div class="--lh-body --ls-body">
         <p>A B C D E F G H i J K L M N O P Q S T U V W X Y Z</p>
         <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-        <p>1 2 3 4 5 6 7 8 9</p>
+        <p>0 1 2 3 4 5 6 7 8 9</p>
+        </div>
       </div>
       <div class="ff-Roboto">
-        <h2 class="lh-heading">Roboto Font-family</h2>
+        <h2 class="lh-heading ls-heading">Roboto Font-family</h2>
+        <div class="--lh-body --ls-body">
         <p>A B C D E F G H i J K L M N O P Q S T U V W X Y Z</p>
         <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-        <p>1 2 3 4 5 6 7 8 9</p>
+        <p>0 1 2 3 4 5 6 7 8 9</p>
+        </div>
       </div>
 
-      <h3 class="ff-Montserrat lh-heading">Font Uses</h3>
+      <h3 class="ff-Montserrat lh-heading ls-heading">Font Uses</h3>
       <table>
-        <tr>
+        <tr class="ff-Montserrat lh-heading ls-heading">
           <th>Spacification</th>
           <th>Heading</th>
           <th>Paragraph</th>
         </tr>
+        <div class="--lh-body --ls-body ff-Roboto">
         <tr>
           <td>Font Family</td>
           <td>Montserrat</td>
@@ -175,8 +180,8 @@
         </tr>
         <tr>
           <td>Font weight</td>
-          <td>700</td>
-          <td>400</td>
+          <td>h1:700  ,h2:500   ,h3:300</td>
+          <td>200,400</td>
         </tr>
         <tr>
           <td>Line height</td>
@@ -188,7 +193,46 @@
           <td>0.03em</td>
           <td>0.02em</td>
         </tr>
+        <tr>
+          <td>Font-size</td>
+          <td>h1:36px  ,h2:24px   ,h3:18px </td>
+          <td>16px</td>
+        </tr>
+        </div>
       </table>
+      <h3>Utility Class for each font</h3>
+      <h4>h1:the display font</h4>
+      <ul>
+        <li>text__secondary</li>
+        <li>ff-Montserrat</li>
+        <li>fw-700</li>
+        <li>lh-heading</li>
+        <li>ls-heading</li>
+      </ul>
+      <h4>h2:the display font</h4>
+      <ul>
+        <li>text__primary</li>
+        <li>ff-Montserrat</li>
+        <li>fw-500</li>
+        <li>lh-heading</li>
+        <li>ls-heading</li>
+      </ul>
+      <h4>h3:the display font</h4>
+      <ul>
+        <li>text__secondary</li>
+        <li>ff-Montserrat</li>
+        <li>fw-400</li>
+        <li>lh-heading</li>
+        <li>ls-heading</li>
+      </ul>
+      <h4>p:the display body text</h4>
+      <ul>
+        <li>text__secondary</li>
+        <li>ff-Montserrat</li>
+        <li>fw-700</li>
+        <li>lh-heading</li>
+        <li>ls-heading</li>
+      </ul>
     </main>
   </body>
 </html>
