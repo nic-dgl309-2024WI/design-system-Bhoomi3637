@@ -113,4 +113,10 @@ ol {
   font-weight: var(--fw-700);
 }
 
-/** Letter spacing**/
+/** Letter height**/
+.lh-heading{line-height: var(--lh-heading)}
+.lh-body{line-height: var(--lh-body);}
+
+/** latter Spacing**/
+.ls-heading{letter-spacing: var(--ls-heading);}
+.ls-body{letter-spacing: var(--ls-body);}
