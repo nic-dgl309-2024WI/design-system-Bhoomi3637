@@ -1,3 +1,9 @@
+h1,h2,h3,h4{
+  color: var(--clr-secondary-text);
+}
+ul h3{
+  color: var(--clr-primary-text);
+}
 a {
     text-decoration: none;
     color: var(--clr-primary-text);
@@ -36,7 +42,20 @@ a {
     float: right;
     display: block;
   }
-  
+  /* Hide the "X" symbol initially */
+.toggle .fa-times {
+  display: none;
+}
+
+/* Show the "X" symbol when the toggle button is active */
+.toggle.active .fa-times {
+  display: inline;
+}
+
+/* Hide the "bars" icon when the toggle button is active */
+.toggle.active .fa-bars {
+  display: none;
+}
   .navbar-mobile__content {
     display: none; /* Hide content initially on small screens */
   }
