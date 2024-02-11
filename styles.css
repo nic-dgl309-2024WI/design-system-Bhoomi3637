@@ -8,8 +8,8 @@
 }
 /* Font Families */
 :root {
-  --font-heading: 'Montserrat', sans-serif;
-  --font-body: 'Roboto', sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Roboto", sans-serif;
 }
 /**Font size**/
 :root {
@@ -19,9 +19,12 @@
   --body-size: 16px;
 }
 /** Font Weight **/
-:root{
-  --regular-font:400;
-  --bold-font:700;
+:root {
+  --fs-200: 200;
+  --fs-300: 300;
+  --fs-400: 400;
+  --fs-500: 600;
+  --fs-700: 700;
 }
 
 /* Border Box Fix */
@@ -51,26 +54,49 @@ ol {
 }
 
 /*color for swatches*/
-.bg__primary{
-  background-color: #3A3B5A;
+.bg__primary {
+  background-color: #3a3b5a;
   color: white;
 }
-.text__primary
-{
+.text__primary {
   background-color: #fff;
-  color:#3A3B5A ;
+  color: #3a3b5a;
 }
 
-.accent{
+.accent {
   background-color: #833440;
   color: #fff;
 }
-.bg__secondary{
-background-color: #DAE2E1;
-color: #2A2B41;
-
+.bg__secondary {
+  background-color: #dae2e1;
+  color: #2a2b41;
 }
-.text__secondary{
-  background-color:#2A2B41 ;
-  color: #DAE2E1;
+.text__secondary {
+  background-color: #2a2b41;
+  color: #dae2e1;
+}
+/*===Typography===*/
+/**font family*/
+.ff-Montserrat {
+  font-family: var(--font-heading);
+}
+.ff-Roboto {
+  font-family: var(--font-body);
+}
+
+/** font weight**/
+.fs-200 {
+  font-weight: var(--fs-200);
+}
+.fs-300 {
+  font-weight: var(--fs-300);
+}
+.fs-400 {
+  font-weight: var(--fs-400);
+}
+.fs-500 {
+  font-weight: var(--fs-500);
+}
+.fs-700 {
+  font-weight: var(--fs-700);
 }
