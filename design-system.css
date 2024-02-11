@@ -10,7 +10,9 @@ a {
   }  
   /*for active page*/
   .active{
+    font-weight: var(--fw-700);
     color: var(--clr-light);
+    text-decoration: underline;
   }
   /** hide top-navbar and sidebar*/
   .top__navbar,
