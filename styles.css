@@ -20,11 +20,11 @@
 }
 /** Font Weight **/
 :root {
-  --fs-200: 200;
-  --fs-300: 300;
-  --fs-400: 400;
-  --fs-500: 600;
-  --fs-700: 700;
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 600;
+  --fw-700: 700;
 }
 
 /* Border Box Fix */
@@ -85,18 +85,20 @@ ol {
 }
 
 /** font weight**/
-.fs-200 {
-  font-weight: var(--fs-200);
+.fw-200 {
+  font-weight: var(--fw-200);
 }
-.fs-300 {
-  font-weight: var(--fs-300);
+.fw-300 {
+  font-weight: var(--fw-300);
 }
-.fs-400 {
-  font-weight: var(--fs-400);
+.fw-400 {
+  font-weight: var(--fw-400);
 }
-.fs-500 {
-  font-weight: var(--fs-500);
+.fw-500 {
+  font-weight: var(--fw-500);
 }
-.fs-700 {
-  font-weight: var(--fs-700);
+.fw-700 {
+  font-weight: var(--fw-700);
 }
+
+/** 
