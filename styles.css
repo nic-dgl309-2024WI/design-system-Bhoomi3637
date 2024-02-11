@@ -120,3 +120,9 @@ ol {
 /** latter Spacing**/
 .ls-heading{letter-spacing: var(--ls-heading);}
 .ls-body{letter-spacing: var(--ls-body);}
+
+/**font size**/
+h1{ font-size: var(--h1-size);}
+h2{font-size: var(--h2-size);}
+h3{font-size: var(--h3-size);}
+p{font-size: var(--body-size);}
