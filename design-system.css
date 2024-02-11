@@ -62,7 +62,7 @@ a {
     display: none; /* Hide content initially on small screens */
   }
   a:hover {
-    background-color: var(--clr-light);
+    text-decoration: underline;
   }
 
   /*** font specification table**/

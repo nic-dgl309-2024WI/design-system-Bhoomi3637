@@ -1,3 +1,4 @@
+/*refrence from chat gpt */
 function toggleNav() {
   var content = document.getElementById("content");
   var toggleButton = document.querySelector(".toggle");
