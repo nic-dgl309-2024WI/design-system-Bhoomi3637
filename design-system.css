@@ -43,6 +43,26 @@ a {
   a:hover {
     background-color: var(--clr-light);
   }
+
+  /*** font specification table**/
+  /***from w3.school**/
+  table {
+    font-family: var(--font-body);
+    border-collapse: collapse;
+    width: 80%;
+    
+ 
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
   
   /*Destktop*/
   @media only screen and (min-width: 768px) {
