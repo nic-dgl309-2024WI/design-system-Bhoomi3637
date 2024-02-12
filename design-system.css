@@ -27,6 +27,7 @@ a {
     position: relative;
     background-color: var(--clr-primary-bg);
     color: var(--clr-primary-text);
+    padding: 1.5%;
   }
   .content {
     display: none;
@@ -73,7 +74,8 @@ a {
   table {
     font-family: var(--font-body);
     border-collapse: collapse;
-    width: 80%;
+    width: 100%; 
+    margin-bottom: 20px;
     
  
   }
@@ -81,12 +83,14 @@ a {
   td, th {
     border: 1px solid #dddddd;
     text-align: center;
-    padding: 8px;
+    padding: 2px;
+    font-size: 12px;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color:var(--clr-secondary-bg);
   }
+  
   
   /*Destktop*/
   @media only screen and (min-width: 768px) {
@@ -110,5 +114,13 @@ a {
       gap: 20px;
     }
     /*=====Typography===*/
+    table{
+      width: 80%;
+      
+  }
+  td, th {
+   
+    font-size: var(--body-size);
+  }
    
   }
