@@ -65,24 +65,24 @@ ol {
 }
 
 /*color for swatches*/
-.bg__primary {
+u.bg__primary {
   background-color: #3a3b5a;
   color: white;
 }
-.text__primary {
+u.text__primary {
   background-color: #fff;
   color: #3a3b5a;
 }
 
-.accent {
+u.accent {
   background-color: #833440;
   color: #fff;
 }
-.bg__secondary {
+u.bg__secondary {
   background-color: #dae2e1;
   color: #2a2b41;
 }
-.text__secondary {
+u.text__secondary {
   background-color: #2a2b41;
   color: #dae2e1;
 }
