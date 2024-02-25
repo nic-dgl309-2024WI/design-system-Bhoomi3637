@@ -91,10 +91,10 @@ u.nuetral2 {
 /*===Typography===*/
 
 /**font family*/
-.u-ff-Montserrat {
+.u-ff-Roboto{
   font-family: var(--font-heading);
 }
-.u-ff-Roboto {
+.u-ff-Lato {
   font-family: var(--font-body);
 }
 
