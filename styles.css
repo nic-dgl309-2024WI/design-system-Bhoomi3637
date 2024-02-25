@@ -67,25 +67,25 @@ ol {
 }
 
 /*color for swatches*/
-u.bg__primary {
+.u-bg__primary {
   background-color: var(--clr-primary-bg);
 }
-u.text__primary {
+.u-text__primary {
   background-color: var(--clr-primary-text);
 }
-u.accent {
+.u-accent {
   background-color: var(--clr-accent);
 }
-u.bg__secondary {
+.u-bg__secondary {
   background-color: var(--clr-secondary-bg);
 }
-u.text__secondary {
+.u-text__secondary {
   background-color: var(--clr-secondary-text);
 }
-u.nuetral {
+.u-nuetral {
   background-color: var(--clr-nuetral);
 }
-u.nuetral2 {
+.u-nuetral2 {
   background-color: var(--clr-nuetral2);
 }
 /*===Typography===*/
