@@ -19,145 +19,170 @@
     />
   </head>
   <body>
-    <nav>
-      <!--Top Navbar -->
-      <div class="top__navbar u-ff-Montserrat">
-        <a href="index.html">Design System</a>
-        <div class="top-navbar__content">
-          <a href="about-me.html">About Me</a>
-          <a href="">Demo Site</a>
+    <header>
+      <nav>
+        <!--Top Navbar -->
+        <div class="top__navbar u-ff-Roboto">
+          <a href="index.html" class="active">Design System</a>
+          <div class="top-navbar__content">
+            <a href="about-me.html">About Me</a>
+            <a href="">Demo Site</a>
+          </div>
         </div>
-      </div>
-      <!-- Side Bar -->
-      <div class="side__bar u-ff-Robot">
-        <ul>
-          <h3 class="sidebar__heading lh-heading u-ls-heading">Branding</h3>
-          <div class="u-lh-body u-ls-body">
-            <li><a href="color.html">01 Colours</a></li>
-            <li><a href="typography.html" class="active">02 Typography</a></li>
-            <li><a href="">03 Logo</a></li>
-          </div>
-        </ul>
-
-        <ul>
-          <h3 class="sidebar__heading u-lh-heading u-ls-heading">Utilities</h3>
-          <div class="u-lh-body u-ls-body">
-            <li><a href="">04 Spacing </a></li>
-            <li><a href="">05 Containers </a></li>
-            <li><a href="">06 Images </a></li>
-            <li><a href="">07 Interactive </a></li>
-            <li><a href="">08 Feedback </a></li>
-          </div>
-        </ul>
-
-        <ul>
-          <h3 class="sidebar__heading u-lh-heading u-ls-heading">Navigation</h3>
-          <div class="u-lh-body u-ls-body">
-            <li><a href="">09 Navbars </a></li>
-            <li><a href="">10 Breadcrumbs </a></li>
-            <li><a href="">11 Pagination </a></li>
-          </div>
-        </ul>
-
-        <ul>
-          <h3 class="sidebar__heading u-lh-heading u-ls-heading">Blocks</h3>
-          <div class="u-lh-body u-ls-body">
-            <li><a href="">12 Hero </a></li>
-            <li><a href="">13 Carousel </a></li>
-            <li><a href="">14 Slats </a></li>
-            <li><a href="">15 Footer </a></li>
-          </div>
-        </ul>
-
-        <ul>
-          <h3 class="sidebar__heading u-lh-heading u-ls-heading">Components</h3>
-          <div class="u-lh-body u-ls-body">
-            <li><a href="">16 Cards </a></li>
-            <li><a href="">17 Forms </a></li>
-            <li><a href="">18 Accordion </a></li>
-            <li><a href="">19 Lists </a></li>
-          </div>
-        </ul>
-      </div>
-      <!-- Mobile Navbar -->
-      <div class="navbar__mobile u-ff-Robot">
-        <a href="index.html">Design System</a>
-        <!-- toggel -->
-        <a href="#" class="toggle" onclick="toggleNav()"
-          ><i class="fa fa-bars" aria-hidden="true"></i>
-          <i class="fa fa-times" style="color: var(--clr-primary-text);"  aria-hidden="true"></i>
-        </a>
-
-        <div id="content" class="navbar-mobile__content">
-          <a href="about-me.html">About Me</a>
-          <a href="#">Demo Site</a>
-
+        <!-- Side Bar -->
+        <div class="side__bar u-ff-Lato">
           <ul>
-            <h3 class="sidebar__heading u-lh-heading u-ls-heading">Branding</h3>
+            <h3 class="sidebar__heading lh-heading u-ls-heading">Branding</h3>
             <div class="u-lh-body u-ls-body">
               <li><a href="color.html">01 Colours</a></li>
-              <li><a href="typography.html" class="active">02 Typography</a></li>
-              <li><a href="#">03 Logo</a></li>
+              <li><a href="typography.html">02 Typography</a></li>
+              <li><a href="">03 Logo</a></li>
             </div>
           </ul>
 
           <ul>
-            <h3 class="sidebar__heading u-lh-heading u-ls-heading">Utilities</h3>
+            <h3 class="sidebar__heading u-lh-heading u-ls-heading">
+              Utilities
+            </h3>
             <div class="u-lh-body u-ls-body">
-              <li><a href="#">04 Spacing </a></li>
-              <li><a href="#">05 Containers </a></li>
-              <li><a href="#">06 Images </a></li>
-              <li><a href="#">07 Interactive </a></li>
-              <li><a href="#">08 Feedback </a></li>
+              <li><a href="">04 Spacing </a></li>
+              <li><a href="">05 Containers </a></li>
+              <li><a href="">06 Images </a></li>
+              <li><a href="">07 Interactive </a></li>
+              <li><a href="">08 Feedback </a></li>
             </div>
           </ul>
 
           <ul>
-            <h3 class="sidebar__heading u-lh-heading u-ls-heading">Navigation</h3>
+            <h3 class="sidebar__heading u-lh-heading u-ls-heading">
+              Navigation
+            </h3>
             <div class="u-lh-body u-ls-body">
-              <li><a href="#">09 Navbars </a></li>
-              <li><a href="#">10 Breadcrumbs </a></li>
-              <li><a href="#">11 Pagination </a></li>
+              <li><a href="">09 Navbars </a></li>
+              <li><a href="">10 Breadcrumbs </a></li>
+              <li><a href="">11 Pagination </a></li>
             </div>
           </ul>
 
           <ul>
-            <h3 class="sidebar__heading u-lh-heading u-u-ls-heading">Blocks</h3>
+            <h3 class="sidebar__heading u-lh-heading u-ls-heading">Blocks</h3>
             <div class="u-lh-body u-ls-body">
-              <li><a href="#">12 Hero </a></li>
-              <li><a href="#">13 Carousel </a></li>
-              <li><a href="#">14 Slats </a></li>
-              <li><a href="#">15 Footer </a></li>
+              <li><a href="">12 Hero </a></li>
+              <li><a href="">13 Carousel </a></li>
+              <li><a href="">14 Slats </a></li>
+              <li><a href="">15 Footer </a></li>
             </div>
           </ul>
 
           <ul>
-            <h3 class="sidebar__heading u-lh-heading u-u-ls-heading">Components</h3>
+            <h3 class="sidebar__heading u-lh-heading u-ls-heading">
+              Components
+            </h3>
             <div class="u-lh-body u-ls-body">
-              <li><a href="#">16 Cards </a></li>
-              <li><a href="#">17 Forms </a></li>
-              <li><a href="#">18 Accordion </a></li>
-              <li><a href="#">19 Lists </a></li>
+              <li><a href="">16 Cards </a></li>
+              <li><a href="">17 Forms </a></li>
+              <li><a href="">18 Accordion </a></li>
+              <li><a href="">19 Lists </a></li>
             </div>
           </ul>
         </div>
-      </div>
-    </nav>
+        <!-- Mobile Navbar -->
+        <div class="navbar__mobile u-ff-Roboto">
+          <a href="index.html" class="active">Design System</a>
+          <!-- toggel -->
+          <a href="#" class="toggle" onclick="toggleNav()"
+            ><i class="fa fa-bars" aria-hidden="true"></i>
+            <i
+              class="fa fa-times"
+              style="color: var(--clr-primary-text)"
+              aria-hidden="true"
+            ></i>
+          </a>
+
+          <div id="content" class="navbar-mobile__content">
+            <a href="about-me.html">About Me</a>
+            <a href="#">Demo Site</a>
+
+            <ul>
+              <h3 class="sidebar__heading u-lh-heading u-ls-heading">
+                Branding
+              </h3>
+              <div class="u-lh-body u-ls-body">
+                <li><a href="color.html">01 Colours</a></li>
+                <li><a href="typography.html">02 Typography</a></li>
+                <li><a href="#">03 Logo</a></li>
+              </div>
+            </ul>
+
+            <ul>
+              <h3 class="sidebar__heading u-lh-heading u-ls-heading">
+                Utilities
+              </h3>
+              <div class="u-lh-body u-ls-body">
+                <li><a href="#">04 Spacing </a></li>
+                <li><a href="#">05 Containers </a></li>
+                <li><a href="#">06 Images </a></li>
+                <li><a href="#">07 Interactive </a></li>
+                <li><a href="#">08 Feedback </a></li>
+              </div>
+            </ul>
+
+            <ul>
+              <h3 class="sidebar__heading u-lh-heading u-ls-heading">
+                Navigation
+              </h3>
+              <div class="u-lh-body u-ls-body">
+                <li><a href="#">09 Navbars </a></li>
+                <li><a href="#">10 Breadcrumbs </a></li>
+                <li><a href="#">11 Pagination </a></li>
+              </div>
+            </ul>
+
+            <ul>
+              <h3 class="sidebar__heading u-lh-heading u-u-ls-heading">
+                Blocks
+              </h3>
+              <div class="u-lh-body u-ls-body">
+                <li><a href="#">12 Hero </a></li>
+                <li><a href="#">13 Carousel </a></li>
+                <li><a href="#">14 Slats </a></li>
+                <li><a href="#">15 Footer </a></li>
+              </div>
+            </ul>
+
+            <ul>
+              <h3 class="sidebar__heading u-lh-heading u-u-ls-heading">
+                Components
+              </h3>
+              <div class="u-lh-body u-ls-body">
+                <li><a href="#">16 Cards </a></li>
+                <li><a href="#">17 Forms </a></li>
+                <li><a href="#">18 Accordion </a></li>
+                <li><a href="#">19 Lists </a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
-      
-      <h1 class="u-ff-Montserrat u-lh-heading">Font Family</h1>
-      <div class="u-ff-Montserrat">
-        <!-- ----Example of Montserrat font family -->
-        <h2 class="u-lh-heading u-ls-heading heading_typography">Montserrat Font-family</h2>
+      <h1 class="u-ff-Roboto u-lh-heading">Font Family</h1>
+      <div class="u-ff-Roboto">
+        <!-- ----Example of roboto font family -->
+        <h2 class="u-lh-heading u-ls-heading heading_typography">
+          Roboto Font-family
+        </h2>
         <div class="u-lh-body u-ls-body">
           <p>A B C D E F G H i J K L M N O P Q S T U V W X Y Z</p>
           <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
           <p>0 1 2 3 4 5 6 7 8 9</p>
         </div>
       </div>
-      <div class="u-ff-Roboto">
-         <!-- ----Example of robot font family -->
-        <h2 class="u-lh-heading u-ls-heading heading_typography">Roboto Font-family</h2>
+      <div class="u-ff-Latoo">
+        <!-- ----Example of lato font family -->
+        <h2 class="u-lh-heading u-ls-heading heading_typography">
+          Lato Font-family
+        </h2>
         <div class="u-lh-body u-ls-body">
           <p>A B C D E F G H i J K L M N O P Q S T U V W X Y Z</p>
           <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
@@ -165,19 +190,21 @@
         </div>
       </div>
 
-      <h3 class="u-ff-Montserrat u-lh-heading u-ls-heading heading_typography">Font Uses</h3>
-       <!-- ----fonts uses with font family,font weight line hieght and line spacing -->
+      <h3 class="u-ff-Robotu-lh-heading u-ls-heading heading_typography">
+        Font Uses
+      </h3>
+      <!-- ----fonts uses with font family,font weight line hieght and line spacing -->
       <table>
-        <tr class="u-ff-Montserrat u-lh-heading u-ls-heading">
+        <tr class="u-ff-Robot-lh-heading u-ls-heading">
           <th>Spacification</th>
           <th>Heading</th>
           <th>Paragraph</th>
         </tr>
-        <div class="u-lh-body u-ls-body u-ff-Roboto">
+        <div class="u-lh-body u-ls-body u-ff-Latoo">
           <tr>
             <td>Font Family</td>
-            <td>Montserrat</td>
             <td>Roboto</td>
+            <td>Lato</td>
           </tr>
           <tr>
             <td>Font weight</td>
@@ -201,51 +228,59 @@
           </tr>
         </div>
       </table>
-      <h3 class="heading_typography u-ff-Montserrat u-lh-heading u-ls-heading">Utility Class for each font</h3>
-       <!-- ----utility class for every fonts  -->
+      <h3 class="heading_typography u-ff-Robot-lh-heading u-ls-heading">
+        Utility Class for each font
+      </h3>
+      <!-- ----utility class for every fonts  -->
       <table>
         <tr>
           <th>Header</th>
-          <th>Class Name</th>
+
           <th>Font Family</th>
           <th>Font Weight</th>
           <th>Line Height</th>
           <th>Letter Spacing</th>
         </tr>
         <tr>
-          <td>h1:the display font</td>
-          <td>u.text__secondary</td>
+          <td>
+            <h1 class="u-ff-Roboto u-fw-700 u-lh-heading u-ls-heading">H1</h1>
+          </td>
+
           <td>u-ff-Montserrat</td>
           <td>u-fw-700</td>
           <td>u-lh-heading</td>
           <td>u-ls-heading</td>
         </tr>
         <tr>
-          <td>h2:the display font</td>
-          <td>u.text__primary</td>
+          <td>
+            <h2 class="u-ff-Roboto u-fw-500 u-lh-heading u-ls-heading">H2</h2>
+          </td>
+
           <td>u-ff-Montserrat</td>
           <td>u-fw-500</td>
           <td>u-lh-heading</td>
           <td>u-ls-heading</td>
         </tr>
         <tr>
-          <td>h3:the display font</td>
-          <td>u.text__secondary</td>
+          <td>
+            <h3 class="u-ff-Roboto u-fw-400 u-lh-heading u-ls-heading">H3</h3>
+          </td>
+
           <td>u-ff-Montserrat</td>
           <td>u-fw-400</td>
           <td>u-lh-heading</td>
           <td>u-ls-heading</td>
         </tr>
         <tr>
-          <td>p:the display body text</td>
-          <td>u.text__secondary</td>
-          <td>u-ff-robot</td>
-          <td>u-fw-300</td>
+          <td><h3 class="u-ff-Lato u-lh-body u-ls-body">Paragraph</h3></td>
+
+          <td>u-ff-Lato</td>
+          <td>normal</td>
           <td>u-lh-body</td>
           <td>u-ls-body</td>
         </tr>
       </table>
-      <h1>H1</h1>
+      
     </main>
   </body>
 </html>
