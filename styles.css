@@ -1,11 +1,11 @@
 :root {
   --clr-primary-text: #fff;
-  --clr-primary-bg: #E4D9DB;
+  --clr-primary-bg: #F1ECED;
   --clr-secondary-text: #2a2b41;
   --clr-secondary-bg: #78454f;
   --clr-accent: #5E3838;
   --clr-light: #a6eae2;
-  --clr-nuetral:#F1ECED;
+  --clr-nuetral:#E4D9DB;
   --clr-nuetral2 :#D6C7CA;
 }
 /* Font Families */

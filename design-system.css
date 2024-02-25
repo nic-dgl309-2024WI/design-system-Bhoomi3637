@@ -65,8 +65,22 @@ a {
   a:hover {
     text-decoration: underline;
   }
-
-  /*======Typography===*/
+/*--------colors---------------*/
+.color__container{
+padding: 20% 10%;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.color__container1{
+  display: inline-block;
+  width: 250px; /* Adjust the width as needed */
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+  /*================Typography=============*/
   .heading_typography{
     margin: 2%;
   }
@@ -92,7 +106,7 @@ a {
   }
   
   
-  /*Destktop*/
+  /*====================================================Destktop===============================================================================*/
   @media only screen and (min-width: 768px) {
     .top__navbar,
     .side__bar {
