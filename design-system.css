@@ -100,6 +100,13 @@ a {
       background-color: var(--clr-primary-bg);
       color: var(--clr-primary-text);
     }
+    .side__bar{
+      width: 15%;
+    }
+    /* sidebar_heading*/
+  .sidebar__heading{
+    padding: 4% 0% ;
+  }
     .navbar__mobile {
       display: none;
     }
