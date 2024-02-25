@@ -10,8 +10,8 @@
 }
 /* Font Families */
 :root {
-  --font-heading: "Montserrat", sans-serif;
-  --font-body: "Roboto", sans-serif;
+  --font-heading: "Roboto", sans-serif;
+  --font-body: "Lato", sans-serif;
 }
 /**Font size**/
 :root {
