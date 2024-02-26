@@ -66,11 +66,15 @@ a {
     text-decoration: underline;
   }
 /*--------colors---------------*/
-.color__container{
+/*color box*/
+.color-container__content{
 padding: 20% 10%;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.color__container1{
+/**contanier*/
+.color-container__item{
+  
+  text-align: center;
   display: inline-block;
   width: 250px; /* Adjust the width as needed */
   padding: 20px;
@@ -116,6 +120,7 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     .side__bar{
       width: 15%;
+      
     }
     /* sidebar_heading*/
   .sidebar__heading{
@@ -133,6 +138,11 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     .top-navbar__content{
       display: flex;
       gap: 20px;
+    }
+    /*--------color--------*/
+    .color-container{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
     }
     /*=====Typography===*/
     table{
