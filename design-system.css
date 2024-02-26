@@ -1,12 +1,10 @@
-h1,h2,h3,h4{
-  color: var(--clr-secondary-text);
-}
+
 ul h3{
-  color: var(--clr-primary-text);
+  color: var(--clr-secondary-text);
 }
 a {
     text-decoration: none;
-    color: var(--clr-primary-text);
+    color: var(--clr-secondary-text);
   }  
   /*for active page*/
   .active{
