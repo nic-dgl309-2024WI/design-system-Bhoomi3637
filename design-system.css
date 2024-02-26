@@ -23,7 +23,7 @@ a {
 .navbar__mobile {
   position: relative;
   background-color: var(--clr-secondary-bg);
-  color: var(--clr-primary-text);
+  color: var(--clr-secondary-text);
   padding: 1.5%;
 }
 .content {

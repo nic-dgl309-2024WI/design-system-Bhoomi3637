@@ -6,7 +6,7 @@
   --clr-accent: #5e3838;
   --clr-light: #a6eae2;
   --clr-nuetral: #e4d9db;
-  --clr-nuetral2: #d6c7ca;
+  --clr-nuetral-light: #d6c7ca;
 }
 /* Font Families */
 :root {
@@ -83,8 +83,8 @@ ol {
 .u-nuetral {
   background-color: var(--clr-nuetral);
 }
-.u-nuetral2 {
-  background-color: var(--clr-nuetral2);
+.u-nuetral__light {
+  background-color: var(--clr-nuetral-light);
 }
 /*===Typography===*/
 
