@@ -1,13 +1,12 @@
 :root {
-
   --clr-primary-text: #78454f;
-  --clr-primary-bg: #F1ECED;
+  --clr-primary-bg: #f1eced;
   --clr-secondary-text: #fff;
   --clr-secondary-bg: #78454f;
-  --clr-accent: #5E3838;
+  --clr-accent: #5e3838;
   --clr-light: #a6eae2;
-  --clr-nuetral:#E4D9DB;
-  --clr-nuetral2 :#D6C7CA;
+  --clr-nuetral: #e4d9db;
+  --clr-nuetral2: #d6c7ca;
 }
 /* Font Families */
 :root {
@@ -23,8 +22,6 @@
 }
 /** Font Weight **/
 :root {
-  --fw-200: 200;
-  --fw-300: 300;
   --fw-400: 400;
   --fw-500: 600;
   --fw-700: 700;
@@ -92,7 +89,7 @@ ol {
 /*===Typography===*/
 
 /**font family*/
-.u-ff-Roboto{
+.u-ff-Roboto {
   font-family: var(--font-heading);
 }
 .u-ff-Lato {
@@ -100,12 +97,7 @@ ol {
 }
 
 /** font weight**/
-.u-fw-200 {
-  font-weight: var(--fw-200);
-}
-.u-fw-300 {
-  font-weight: var(--fw-300);
-}
+
 .u-fw-400 {
   font-weight: var(--fw-400);
 }
