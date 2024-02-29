@@ -29,7 +29,7 @@
 /**Line height**/
 :root {
   --lh-heading: 1.2;
-  --lh-body: 1.5;
+  --lh-body: 1.5rem ;
 }
 
 /**latter Spacing**/
