@@ -137,7 +137,7 @@ h3 {
 p {
   font-size: var(--body-size);
 }
-/*--------Margin--------*/
+/*--------Margin------------*/
 /*--margin for top and bottom--*/
 .l-my-1{
   margin-top: 1rem;   
@@ -149,7 +149,7 @@ p {
   margin-bottom: 1.5rem; 
 }
 
-/*--------padding---------*/
+/*--------padding--------------------*/
 /*---every side padding--*/
 .l-p {
   padding: 1rem; 
@@ -167,3 +167,6 @@ p {
   padding-right: 1rem; 
 }
 
+/*--------Layout Classes--*/
+.l-flex {display: flex;}
+.l-grid {display: grid;}
