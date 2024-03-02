@@ -137,3 +137,16 @@ h3 {
 p {
   font-size: var(--body-size);
 }
+/*--------Margin--------*/
+.l-my-1{
+  margin-top: 1rem;   
+  margin-bottom: 1rem; 
+}
+
+.l-my-1_5{
+  margin-top: 1.5rem;   
+  margin-bottom: 1.5rem; 
+}
+
+/*--------padding---------*/
+
