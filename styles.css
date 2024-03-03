@@ -138,6 +138,12 @@ p {
   font-size: var(--body-size);
 }
 /*--------------------Margin--------------------*/
+/* Applies margin to all sides */
+.l-m { margin: 1rem; } 
+.l-m { margin: 1.5rem; }
+.l-m { margin: 2rem; }
+
+
 /*--margin for top and bottom--*/
 
 .l-my-1{ margin-top: 1rem;   margin-bottom: 1rem; }
