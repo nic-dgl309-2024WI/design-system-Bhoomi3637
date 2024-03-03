@@ -139,10 +139,29 @@ p {
 }
 /*--------------------Margin--------------------*/
 /* Applies margin to all sides */
-.l-m { margin: 1rem; } 
-.l-m { margin: 1.5rem; }
-.l-m { margin: 2rem; }
+.l-m-1 { margin: 1rem; } 
+.l-m-1_5 { margin: 1.5rem; }
+.l-m-2 { margin: 2rem; }
 
+/* Applies margin to top */
+.l-mt-1 {margin-top: 1rem; } 
+.l-mt-1_5 { margin-top: 1.5rem; }
+.l-mt-2{ margin-top: 2rem; }
+
+/* Applies margin to bottom */
+.l-mb-1 { margin-bottom: 1rem;}
+.l-mb-1_5 { margin-bottom: 1.5rem;}
+.l-mb-2 { margin-bottom: 2rem;}
+
+/* Applies margin to right */
+.l-mr-1 { margin-right: 1rem; }
+.l-mr-2 { margin-right: 2rem; }
+.l-mr-2_5 { margin-right: 2.5rem; }
+
+/* Applies margin to left */
+.l-ml-1 { margin-left: 1rem; }
+.l-ml-2 { margin-left: 2rem; }
+.l-ml-2_5 { margin-left: 2.5rem; }
 
 /*--margin for top and bottom--*/
 
