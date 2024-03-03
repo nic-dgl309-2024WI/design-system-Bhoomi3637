@@ -111,9 +111,19 @@ tr:nth-child(even) {
     display: block;
     background-color: var(--clr-secondary-bg);
     color: var(--clr-primary-text);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+   
+  }
+  .main-content {
+    overflow-y: auto; /* Allow content to scroll */
+    padding-top: 100px; /* Adjust based on navbar height */
+    padding-left: 300px; /* Adjust based on side navbar width */
   }
   .side__bar {
     width: 15%;
+    margin-top: 5%;
   }
   /* sidebar_heading*/
   .sidebar__heading {
@@ -135,7 +145,7 @@ tr:nth-child(even) {
   /*--------color--------*/
   .color-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
   }
   /*=====Typography===*/
   table {
