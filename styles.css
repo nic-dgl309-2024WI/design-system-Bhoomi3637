@@ -199,6 +199,10 @@ p {
 /*--------Layout Classes--*/
 .l-flex {display: flex;}
 .l-grid {display: grid;}
+/* .l-flex-coulmn{flex-direction: column;}
+.l-flex-row{
+  flex-direction: row;
+} */
 
 .max-width-wrapper {
   max-width: 350px;
