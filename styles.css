@@ -181,6 +181,10 @@ p {
 .l-p-1_5 { padding: 1.5rem; }
 .l-p-2 { padding: 2rem; }
 
+/*------left padding-----*/
+.l-pl-1_5{padding-left: 1.5rem;}
+.l-pl-2{padding-left: 2rem;}
+
 
 /*--padding for top and bottom--*/
 .l-py-1_5 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
