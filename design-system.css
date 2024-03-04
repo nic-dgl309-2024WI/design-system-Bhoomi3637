@@ -81,9 +81,7 @@ a:hover {
   background-color: #fff;
 }
 /*================Typography=============*/
-.heading_typography {
-  margin: 2%;
-}
+
 /***from w3.school**/
 table {
   font-family: var(--font-body);
