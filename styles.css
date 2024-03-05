@@ -204,13 +204,8 @@ p {
 .l-flex-column{
   flex-direction: column;
 }
-
 .l-fgap-20{gap: 20rem;}
 .l-grid {display: grid;}
-/* .l-flex-coulmn{flex-direction: column;}
-.l-flex-row{
-  flex-direction: row;
-} */
 
 
 @media only screen and (min-width: 768px) {
