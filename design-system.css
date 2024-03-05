@@ -21,7 +21,9 @@ a {
   padding: 1% 0%;
 }
 .navbar__mobile {
-  position: relative;
+  position: fixed;
+  width: 100%;
+  top: 0;
   background-color: var(--clr-secondary-bg);
   color: var(--clr-secondary-text);
   padding: 1.5%;
@@ -88,7 +90,10 @@ a:hover {
 .typography-flex__direction{
   flex-direction: column;
 }
-
+.typography__border{
+  border-radius: 20px; /* Adjust the value as needed */
+  border: 5px solid black; 
+}
 /***from w3.school**/
 table {
   font-family: var(--font-body);
