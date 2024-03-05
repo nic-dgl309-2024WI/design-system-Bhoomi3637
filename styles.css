@@ -147,6 +147,7 @@ p {
 .l-mt-1 {margin-top: 1rem; } 
 .l-mt-1_5 { margin-top: 1.5rem; }
 .l-mt-2{ margin-top: 2rem; }
+.l-mt-2_5{ margin-top: 2.5rem; }
 
 /* Applies margin to bottom */
 .l-mb-1 { margin-bottom: 1rem;}
@@ -200,23 +201,26 @@ p {
 
 /*--------Layout Classes--*/
 .l-flex {display: flex;}
+.l-flex-column{
+  flex-direction: column;
+}
+
+.l-fgap-20{gap: 20rem;}
 .l-grid {display: grid;}
 /* .l-flex-coulmn{flex-direction: column;}
 .l-flex-row{
   flex-direction: row;
 } */
 
-.max-width-wrapper {
-  max-width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-}
+
 @media only screen and (min-width: 768px) {
 /***padding top*/
 .l-pt-6_5{
   padding-top: 6.25rem;
 }
 .l-pl-19{padding-left: 19rem;}
+.l-flex-row{
+  flex-direction: row;
 }
+}
+
