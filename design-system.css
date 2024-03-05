@@ -85,6 +85,9 @@ a:hover {
   flex-direction: column;
 }
 /*================Typography=============*/
+.typography-flex__direction{
+  flex-direction: column;
+}
 
 /***from w3.school**/
 table {
@@ -121,8 +124,7 @@ tr:nth-child(even) {
   }
   .main-content {
     overflow-y: auto; /* Allow content to scroll */
-    padding-top: 100px; /* Adjust based on navbar height */
-    padding-left: 300px; /* Adjust based on side navbar width */
+    /* Adjust based on side navbar width */
   }
   .side__bar {
     width: 15%;
@@ -150,6 +152,9 @@ tr:nth-child(even) {
     flex-direction: row;
   }
   /*=====Typography===*/
+  .typography-flex__direction{
+    flex-direction: row;
+  }
   table {
     width: 80%;
   }
