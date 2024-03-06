@@ -217,11 +217,14 @@ p {
   max-width: 100%; /* Allow the main content to take up the full width of the screen */
 
 }
-
+.container-full {
+  width: 100%; /* Full width */
+}
 @media only screen and (min-width: 768px) {
 /***padding top*/
 .l-pt-6_5{padding-top: 6.25rem;}
 .l-pl-19{padding-left: 19rem;}
+
 .l-flex-row{
   flex-direction: row;
 }
