@@ -200,22 +200,36 @@ p {
 .l-px-2 { padding-left: 2rem;  padding-right: 2rem; }
 
 /*--------Layout Classes--*/
+/*---flex classes---*/
 .l-flex {display: flex;}
 .l-flex-column{
   flex-direction: column;
 }
 .l-fgap-20{gap: 20rem;}
+
+/*----grid classes---*/
 .l-grid {display: grid;}
 
+/*-----container for mobile--*/
+.max-width-mobile{
+  margin: 0 auto; /* Center the main content horizontally */
+  padding: 0 20px; /* Add padding to the sides to create space */
+  max-width: 100%; /* Allow the main content to take up the full width of the screen */
+
+}
 
 @media only screen and (min-width: 768px) {
 /***padding top*/
-.l-pt-6_5{
-  padding-top: 6.25rem;
-}
+.l-pt-6_5{padding-top: 6.25rem;}
 .l-pl-19{padding-left: 19rem;}
 .l-flex-row{
   flex-direction: row;
 }
+/*---container for center content---*/
+.max-width-desktop{
+  margin: 0 auto; /* This will horizontally center the main content */
+  max-width: 1200px; /* Adjust the maximum width as needed */
+} 
+
 }
 
