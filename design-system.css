@@ -62,8 +62,8 @@ a {
   display: none; /* Hide content initially on small screens */
 }
 a:hover {
- background-color: var(--clr-secondary-text);
- color: var(--clr-primary-text);
+  background-color: var(--clr-secondary-text);
+  color: var(--clr-primary-text);
 }
 /*--------colors---------------*/
 /*color box*/
@@ -83,16 +83,16 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
-.color-flex__direction{
+.color-flex__direction {
   flex-direction: column;
 }
 /*================Typography=============*/
-.typography-flex__direction{
+.typography-flex__direction {
   flex-direction: column;
 }
-.typography__border{
+.typography__border {
   border-radius: 20px; /* Adjust the value as needed */
-  border: 5px solid black; 
+  border: 5px solid black;
 }
 /***from w3.school**/
 table {
@@ -125,11 +125,9 @@ tr:nth-child(even) {
     position: fixed;
     width: 100%;
     z-index: 1000;
-   
   }
   .main-content {
     overflow-y: auto; /* Allow content to scroll */
-    /* Adjust based on side navbar width */
   }
   .side__bar {
     width: 15%;
@@ -153,11 +151,11 @@ tr:nth-child(even) {
     gap: 20px;
   }
   /*--------color--------*/
-  .color-flex__direction{
+  .color-flex__direction {
     flex-direction: row;
   }
   /*=====Typography===*/
-  .typography-flex__direction{
+  .typography-flex__direction {
     flex-direction: row;
   }
   table {

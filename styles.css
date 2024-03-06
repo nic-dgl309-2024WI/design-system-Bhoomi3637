@@ -199,17 +199,40 @@ p {
 .l-px-1_5 { padding-left: 1.5rem;  padding-right: 1.5rem; }
 .l-px-2 { padding-left: 2rem;  padding-right: 2rem; }
 
-/*--------Layout Classes--*/
+/*-----------Layout Classes-------*/
 /*---flex classes---*/
 .l-flex {display: flex;}
 .l-flex-column{
   flex-direction: column;
 }
 .l-fgap-20{gap: 20rem;}
-
+.flex-wrap {
+  flex-wrap: wrap;
+}
 /*----grid classes---*/
 .l-grid {display: grid;}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
 /*-----container for mobile--*/
 .max-width-mobile{
   margin: 0 auto; /* Center the main content horizontally */
@@ -217,6 +240,7 @@ p {
   max-width: 100%; /* Allow the main content to take up the full width of the screen */
 
 }
+
 .container-full {
   width: 100%; /* Full width */
 }
