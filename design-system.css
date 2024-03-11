@@ -83,13 +83,9 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
-.color-flex__direction {
-  flex-direction: column;
-}
+
 /*================Typography=============*/
-.typography-flex__direction {
-  flex-direction: column;
-}
+
 .typography__border {
   border-radius: 20px; /* Adjust the value as needed */
   border: 5px solid black;
