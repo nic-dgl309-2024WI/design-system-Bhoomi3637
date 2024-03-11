@@ -206,46 +206,46 @@ p {
   flex-direction: column;
 }
 .l-fgap-20{gap: 20rem;}
-.flex-wrap {
+.l-flex-wrap {
   flex-wrap: wrap;
 }
 /*----grid classes---*/
 .l-grid {display: grid;}
-.grid-cols-3 {
+.l-grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-cols-4 {
+.l-grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-cols-2 {
+.l-grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.grid-rows-3 {
+.l-grid-rows-3 {
   grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
-.grid-rows-4 {
+.l-grid-rows-4 {
   grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
-.grid-rows-2 {
+.l-grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 /*------grid gap---*/
 /*---grid gap column--*/
-.grid-gap-column--1{
+.l-grid-gap-column--1{
   grid-column-gap: 1rem;
 }
-.grid-gap-column--2{
+.l-grid-gap-column--2{
   grid-column-gap: 2rem;
 }
 /*--grid gap row--*/
-.grid-gap-row--1{
+.l-grid-gap-row--1{
   grid-row-gap: 1rem;
 }
-.grid-gap-row--1{
+.l-grid-gap-row--1{
   grid-row-gap: 2rem;
 }
 /*-----container for mobile--*/
