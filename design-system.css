@@ -5,6 +5,17 @@ a {
   text-decoration: none;
   color: var(--clr-secondary-text);
 }
+img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+p {
+  max-width: 80ch; /* Limiting paragraph width to 60-80 characters */
+  margin: 0 auto 1rem; /* Centering paragraphs within the container and adding bottom margin */
+}
 /*for active page*/
 .active {
   font-weight: var(--fw-700);
@@ -68,17 +79,18 @@ a:hover {
 /*--------colors---------------*/
 /*color box*/
 .color-container__content {
-  padding: 20% 10%;
+  padding: 15% 10%;
+  margin: 5%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 /**contanier*/
 .color-container__item {
   text-align: center;
   display: inline-block;
-  width: 250px; /* Adjust the width as needed */
-  padding: 20px;
+  width: 400px; /* Adjust the width as needed */
+  padding: 10px;
   margin: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid var(--clr-nuetral);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
@@ -87,8 +99,9 @@ a:hover {
 /*================Typography=============*/
 
 .typography__border {
-  border-radius: 20px; /* Adjust the value as needed */
-  border: 5px solid black;
+  border-radius: 8px; /* Adjust the value as needed */
+  border: 2px solid var(--clr-nuetral);
+  width: 420px;
 }
 /***from w3.school**/
 table {
@@ -96,6 +109,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 20px;
+ 
 }
 
 td,
@@ -109,7 +123,24 @@ th {
 tr:nth-child(even) {
   background-color: var(--clr-primary-bg);
 }
-/*-------------Spacing-----*/
+/*-------About me-----*/
+img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+p {
+  max-width: 80ch; /* Limiting paragraph width to 60-80 characters */
+  margin: 0 auto 1rem; /* Centering paragraphs within the container and adding bottom margin */
+}
+
+.table-wrapper {
+  border: 1px solid black;
+  border-radius: 10px; /* Adjust the radius as needed */
+  overflow: hidden; /* Ensures content inside doesn't overflow rounded corners */
+}
 
 /*====================================================Destktop===============================================================================*/
 @media only screen and (min-width: 768px) {
@@ -147,13 +178,10 @@ tr:nth-child(even) {
     gap: 20px;
   }
   /*--------color--------*/
-  .color-flex__direction {
-    flex-direction: row;
-  }
+  
+  
   /*=====Typography===*/
-  .typography-flex__direction {
-    flex-direction: row;
-  }
+ 
   table {
     width: 80%;
   }
