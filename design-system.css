@@ -105,11 +105,12 @@ a:hover {
 }
 /***from w3.school**/
 table {
+  border: 1px solid var(--clr-nuetral);
+  border-radius: 10px;
   font-family: var(--font-body);
-  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   margin-bottom: 20px;
- 
 }
 
 td,
@@ -122,6 +123,10 @@ th {
 
 tr:nth-child(even) {
   background-color: var(--clr-primary-bg);
+}
+.table__heading{
+  color: var(--clr-secondary-text);
+  background-color: var(--clr-secondary-bg);
 }
 /*-------About me-----*/
 img {
@@ -178,10 +183,9 @@ p {
     gap: 20px;
   }
   /*--------color--------*/
-  
-  
+
   /*=====Typography===*/
- 
+
   table {
     width: 80%;
   }
