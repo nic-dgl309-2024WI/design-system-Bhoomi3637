@@ -87,7 +87,7 @@ a:hover {
 .color-container__item {
   text-align: center;
   display: inline-block;
-  width: 400px; /* Adjust the width as needed */
+  width: 300px; /* Adjust the width as needed */
   padding: 10px;
   margin: 10px;
   border: 2px solid var(--clr-nuetral);
@@ -101,12 +101,12 @@ a:hover {
 .typography__border {
   border-radius: 8px; /* Adjust the value as needed */
   border: 2px solid var(--clr-nuetral);
-  width: 420px;
+  width: 300px;
 }
 /***from w3.school**/
 table {
   border: 1px solid var(--clr-nuetral);
-  border-radius: 10px;
+  border-radius: 8px;
   font-family: var(--font-body);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -124,9 +124,13 @@ th {
 tr:nth-child(even) {
   background-color: var(--clr-primary-bg);
 }
-.table__heading{
+.table__heading {
   color: var(--clr-secondary-text);
   background-color: var(--clr-secondary-bg);
+}
+.table__heading--border{
+  border: 1px solid var(--clr-nuetral);
+  border-radius: 8px;
 }
 /*-------About me-----*/
 img {
@@ -146,7 +150,13 @@ p {
   border-radius: 10px; /* Adjust the radius as needed */
   overflow: hidden; /* Ensures content inside doesn't overflow rounded corners */
 }
-
+.main-content {
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Allow content to scroll */
+}
 /*====================================================Destktop===============================================================================*/
 @media only screen and (min-width: 768px) {
   .top__navbar,
@@ -158,9 +168,7 @@ p {
     width: 100%;
     z-index: 1000;
   }
-  .main-content {
-    overflow-y: auto; /* Allow content to scroll */
-  }
+ 
   .side__bar {
     width: 15%;
     margin-top: 5%;
@@ -183,6 +191,9 @@ p {
     gap: 20px;
   }
   /*--------color--------*/
+  .color-container__item{
+    width: 400px;
+  }
 
   /*=====Typography===*/
 
@@ -192,5 +203,8 @@ p {
   td,
   th {
     font-size: var(--body-size);
+  }
+  .typography__border{
+    width: 420px;
   }
 }
