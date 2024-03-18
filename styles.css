@@ -150,6 +150,7 @@ p {
 .l-mt-2_5{ margin-top: 2.5rem; }
 
 /* Applies margin to bottom */
+.l-mb-0_5 { margin-bottom: 0.5rem;}
 .l-mb-1 { margin-bottom: 1rem;}
 .l-mb-1_5 { margin-bottom: 1.5rem;}
 .l-mb-2 { margin-bottom: 2rem;}
