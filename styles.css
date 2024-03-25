@@ -260,6 +260,9 @@ p {
 .container-full {
   width: 100%; /* Full width */
 }
+/*=====================================Outback Nursury======================================*/
+/*----header--*/
+
 @media only screen and (min-width: 768px) {
 /***padding top*/
 .l-pt-6_5{padding-top: 6.25rem;}
