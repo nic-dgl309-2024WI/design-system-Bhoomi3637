@@ -206,7 +206,7 @@ p {
 .l-flex-column{
   flex-direction: column;
 }
-.l-fgap-20{gap: 20rem;}
+.l-fgap-3{gap: 3rem;}
 .l-flex-wrap {
   flex-wrap: wrap;
 }
@@ -268,6 +268,7 @@ p {
 .l-flex-row{
   flex-direction: row;
 }
+.l-fgap-15{gap: 15rem;}
 /*---container for center content---*/
 .max-width-desktop{
   margin: 0 auto; /* This will horizontally center the main content */
