@@ -29,7 +29,7 @@
 /**Line height**/
 :root {
   --lh-heading: 1.2;
-  --lh-body: 1.5rem ;
+  --lh-body: 1.5rem;
 }
 
 /**latter Spacing**/
@@ -139,79 +139,161 @@ p {
 }
 /*--------------------Margin--------------------*/
 /* Applies margin to all sides */
-.l-m-1 { margin: 1rem; } 
-.l-m-1_5 { margin: 1.5rem; }
-.l-m-2 { margin: 2rem; }
+.l-m-1 {
+  margin: 1rem;
+}
+.l-m-1_5 {
+  margin: 1.5rem;
+}
+.l-m-2 {
+  margin: 2rem;
+}
 
 /* Applies margin to top */
-.l-mt-1 {margin-top: 1rem; } 
-.l-mt-1_5 { margin-top: 1.5rem; }
-.l-mt-2{ margin-top: 2rem; }
-.l-mt-2_5{ margin-top: 2.5rem; }
+.l-mt-1 {
+  margin-top: 1rem;
+}
+.l-mt-1_5 {
+  margin-top: 1.5rem;
+}
+.l-mt-2 {
+  margin-top: 2rem;
+}
+.l-mt-2_5 {
+  margin-top: 2.5rem;
+}
 
 /* Applies margin to bottom */
-.l-mb-0_5 { margin-bottom: 0.5rem;}
-.l-mb-1 { margin-bottom: 1rem;}
-.l-mb-1_5 { margin-bottom: 1.5rem;}
-.l-mb-2 { margin-bottom: 2rem;}
+.l-mb-0_5 {
+  margin-bottom: 0.5rem;
+}
+.l-mb-1 {
+  margin-bottom: 1rem;
+}
+.l-mb-1_5 {
+  margin-bottom: 1.5rem;
+}
+.l-mb-2 {
+  margin-bottom: 2rem;
+}
 
 /* Applies margin to right */
-.l-mr-1 { margin-right: 1rem; }
-.l-mr-2 { margin-right: 2rem; }
-.l-mr-2_5 { margin-right: 2.5rem; }
+.l-mr-1 {
+  margin-right: 1rem;
+}
+.l-mr-2 {
+  margin-right: 2rem;
+}
+.l-mr-2_5 {
+  margin-right: 2.5rem;
+}
 
 /* Applies margin to left */
-.l-ml-1 { margin-left: 1rem; }
-.l-ml-2 { margin-left: 2rem; }
-.l-ml-2_5 { margin-left: 2.5rem; }
+.l-ml-1 {
+  margin-left: 1rem;
+}
+.l-ml-2 {
+  margin-left: 2rem;
+}
+.l-ml-2_5 {
+  margin-left: 2.5rem;
+}
 
 /*--margin for top and bottom--*/
 
-.l-my-1{ margin-top: 1rem;   margin-bottom: 1rem; }
-.l-my-1_5{ margin-top: 1.5rem;   margin-bottom: 1.5rem; }
-.l-my-2{ margin-top: 2rem;   margin-bottom: 2rem; }
+.l-my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.l-my-1_5 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.l-my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 /*--margin for left and right --*/
-.l-mx-1{  margin-right: 1rem; margin-left: 1rem; }
-.l-mx-1_5{  margin-right: 1.5rem; margin-left: 1.5rem;  }
-.l-mx-2{ margin-right: 2rem; margin-left: 2rem;  }
-
+.l-mx-1 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.l-mx-1_5 {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+.l-mx-2 {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
 
 /*------------------padding--------------------*/
 /*---every side padding--*/
-.l-p-1 { padding: 1rem; }
-.l-p-1_5 { padding: 1.5rem; }
-.l-p-2 { padding: 2rem; }
+.l-p-1 {
+  padding: 1rem;
+}
+.l-p-1_5 {
+  padding: 1.5rem;
+}
+.l-p-2 {
+  padding: 2rem;
+}
 
 /*------left padding-----*/
-.l-pl-1_5{padding-left: 1.5rem;}
-.l-pl-2{padding-left: 2rem;}
-
-
-
+.l-pl-1_5 {
+  padding-left: 1.5rem;
+}
+.l-pl-2 {
+  padding-left: 2rem;
+}
 
 /*--padding for top and bottom--*/
-.l-py-1_5 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
-.l-py-2 { padding-top: 2rem; padding-bottom: 2rem; }
-.l-py-2_5 { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.l-py-1_5 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.l-py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.l-py-2_5 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 
 /*--padding for right and left--*/
-.l-px-1 { padding-left: 1rem;  padding-right: 1rem; }
-.l-px-1_5 { padding-left: 1.5rem;  padding-right: 1.5rem; }
-.l-px-2 { padding-left: 2rem;  padding-right: 2rem; }
+.l-px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.l-px-1_5 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.l-px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 /*-----------Layout Classes-------*/
 /*---flex classes---*/
-.l-flex {display: flex;}
-.l-flex-column{
+.l-flex {
+  display: flex;
+}
+.l-flex-column {
   flex-direction: column;
 }
-.l-fgap-3{gap: 3rem;}
+.l-fgap-3 {
+  gap: 3rem;
+}
 .l-flex-wrap {
   flex-wrap: wrap;
 }
 /*----grid classes---*/
-.l-grid {display: grid;}
+.l-grid {
+  display: grid;
+}
 .l-grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -236,47 +318,116 @@ p {
 }
 /*------grid gap---*/
 /*---grid gap column--*/
-.l-grid-gap-column--1{
+.l-grid-gap-column--1 {
   grid-column-gap: 1rem;
 }
-.l-grid-gap-column--2{
+.l-grid-gap-column--2 {
   grid-column-gap: 2rem;
 }
 /*--grid gap row--*/
-.l-grid-gap-row--1{
+.l-grid-gap-row--1 {
   grid-row-gap: 1rem;
 }
-.l-grid-gap-row--1{
+.l-grid-gap-row--1 {
   grid-row-gap: 2rem;
 }
 /*-----container for mobile--*/
-.max-width-mobile{
+.max-width-mobile {
   margin: 0 auto; /* Center the main content horizontally */
   padding: 0 20px; /* Add padding to the sides to create space */
   max-width: 100%; /* Allow the main content to take up the full width of the screen */
-
 }
 
 .container-full {
   width: 100%; /* Full width */
 }
 /*=====================================Outback Nursury======================================*/
-/*----header--*/
+/*----header-----*/
+.hero {
+  position: relative;
+}
+
+.hero__slide-background {
+  position: relative;
+  height: 40vh; /* Adjust as needed */
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--clr-secondary-text);
+}
+
+
+
+.hero__text p {
+  font-size: 18px;
+}
+
+.hero__text .cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--clr-accent);
+  color: var(--clr-secondary-text);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hero__text .cta-btn:hover {
+  background-color: var(--clr-nuetral);
+  color: var(--clr-accent);
+  border: var(--clr-accent);
+}
+
 
 @media only screen and (min-width: 768px) {
-/***padding top*/
-.l-pt-6_5{padding-top: 6.25rem;}
-.l-pl-19{padding-left: 19rem;}
+  /***padding top*/
+  .l-pt-6_5 {
+    padding-top: 6.25rem;
+  }
+  .l-pl-19 {
+    padding-left: 19rem;
+  }
 
-.l-flex-row{
-  flex-direction: row;
+  .l-flex-row {
+    flex-direction: row;
+  }
+  .l-fgap-15 {
+    gap: 15rem;
+  }
+  /*---container for center content---*/
+  .max-width-desktop {
+    margin: 0 auto; /* This will horizontally center the main content */
+    max-width: 1200px; /* Adjust the maximum width as needed */
+  }
+  /*--------OutBack Nursery---------*/
+
+  .hero {
+    position: relative;
+  }
+  
+  .hero__slide-background {
+    position: relative;
+    height: 80vh; /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
 }
-.l-fgap-15{gap: 15rem;}
-/*---container for center content---*/
-.max-width-desktop{
-  margin: 0 auto; /* This will horizontally center the main content */
-  max-width: 1200px; /* Adjust the maximum width as needed */
-} 
-
-}
-
