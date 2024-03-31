@@ -15,10 +15,11 @@
 }
 /**Font size**/
 :root {
-  --h1-size: 36px;
-  --h2-size: 24px;
-  --h3-size: 18px;
-  --body-size: 16px;
+  --h1-size: 40px;
+  --h2-size: 36px;
+  --h3-size: 24px;
+  --body-size: 20px;
+  --body-size-m:18px;
 }
 /** Font Weight **/
 :root {
@@ -349,22 +350,26 @@ p {
 
 .hero__slide-background {
   position: relative;
-  height: 40vh; /* Adjust as needed */
+  height: 50vh; /* Adjust as needed */
   background-size: cover;
   background-position: center;
 }
 
 .hero__text {
+  width :300px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: var(--clr-secondary-text);
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (last parameter) for transparency */
+  padding: 20px; /* Add padding for better readability */
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
 }
 
 .hero__text p {
-  font-size: 18px;
+  font-size: var(--body-size-m);
 }
 
 .hero__text .cta-btn {
@@ -429,7 +434,42 @@ p {
 .next_btn {
   right: 0;
 }
+/*-------product category----*/
+.product__category--accordion{
+  width: 500px;
+  background-color: var(--clr-nuetral);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.product__category__content {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.product__category--accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
 /*=========================================================Desktop==========================================================*/
 @media only screen and (min-width: 768px) {
   /***padding top*/
@@ -449,7 +489,7 @@ p {
   /*---container for center content---*/
   .max-width-desktop {
     margin: 0 auto; /* This will horizontally center the main content */
-    max-width: 1180px; /* Adjust the maximum width as needed */
+    max-width: 1200px; /* Adjust the maximum width as needed */
   }
   /*--------OutBack Nursery---------*/
 
