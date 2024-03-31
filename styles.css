@@ -286,6 +286,9 @@ p {
 .l-flex-column {
   flex-direction: column;
 }
+.l-flex-column-reverse {
+  flex-direction: column-reverse;
+}
 .l-fgap-3 {
   gap: 3rem;
 }
