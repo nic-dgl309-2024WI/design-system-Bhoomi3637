@@ -342,7 +342,7 @@ p {
   width: 100%; /* Full width */
 }
 /*=====================================Outback Nursury======================================*/
-/*----header-----*/
+/*----Hero section-----*/
 .hero {
   position: relative;
 }
@@ -362,8 +362,6 @@ p {
   text-align: center;
   color: var(--clr-secondary-text);
 }
-
-
 
 .hero__text p {
   font-size: 18px;
@@ -385,7 +383,54 @@ p {
   border: var(--clr-accent);
 }
 
+/*---------------------Product ----------------*/
+/*-----------Best seller----------*/
+.product_card .product_image {
+  height: 250px;
+}
+.product_card .product_image img {
+  height: 100%;
+  border-radius: 4%;
+}
+.product_card {
+  width: 200px;
+  border-radius: 4%;
+}
+.product_container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
 
+.product_slide_container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.product_card_wrapper {
+  flex: 0 0 auto;
+}
+.prev_btn, .next_btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev_btn {
+  left: 0;
+}
+
+.next_btn {
+  right: 0;
+}
+
+/*=========================================================Desktop==========================================================*/
 @media only screen and (min-width: 768px) {
   /***padding top*/
   .l-pt-6_5 {
@@ -404,30 +449,18 @@ p {
   /*---container for center content---*/
   .max-width-desktop {
     margin: 0 auto; /* This will horizontally center the main content */
-    max-width: 1200px; /* Adjust the maximum width as needed */
+    max-width: 1180px; /* Adjust the maximum width as needed */
   }
   /*--------OutBack Nursery---------*/
 
   .hero {
     position: relative;
   }
-  
+
   .hero__slide-background {
     position: relative;
     height: 80vh; /* Adjust as needed */
     background-size: cover;
     background-position: center;
   }
-  
-  
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
 }
