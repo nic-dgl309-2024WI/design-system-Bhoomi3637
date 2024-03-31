@@ -503,4 +503,7 @@ p {
     background-size: cover;
     background-position: center;
   }
+  .hero__text{
+    width: 600px;
+  }
 }
