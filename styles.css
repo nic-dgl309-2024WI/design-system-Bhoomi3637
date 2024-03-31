@@ -288,6 +288,12 @@ p {
 .l-fgap-3 {
   gap: 3rem;
 }
+.l-fgap-1-5 {
+  gap: 1.5rem;
+}
+.l-fgap-0-5 {
+  gap: 0.5rem;
+}
 .l-flex-wrap {
   flex-wrap: wrap;
 }
@@ -435,13 +441,17 @@ p {
   right: 0;
 }
 /*-------product category----*/
-.product__category--accordion{
-  width: 500px;
+
+
+.product__category--accordion {
+  padding: 12px; /* Adjust padding */
+}
+.product__category--accordion {
+  width: 100%;
   background-color: var(--clr-nuetral);
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
   border: none;
   text-align: left;
   outline: none;
@@ -449,8 +459,9 @@ p {
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc; 
+.product__category--accordion.active,
+.product__category--accordion:hover {
+  background-color: #ccc;
 }
 
 .product__category__content {
@@ -459,6 +470,7 @@ p {
   background-color: white;
   overflow: hidden;
 }
+
 .product__category--accordion:after {
   content: '\002B';
   color: #777;
@@ -467,7 +479,7 @@ p {
   margin-left: 5px;
 }
 
-.active:after {
+.product__category--accordion.active:after {
   content: "\2212";
 }
 /*=========================================================Desktop==========================================================*/
@@ -483,6 +495,8 @@ p {
   .l-flex-row {
     flex-direction: row;
   }
+ 
+  
   .l-fgap-15 {
     gap: 15rem;
   }
@@ -506,4 +520,11 @@ p {
   .hero__text{
     width: 600px;
   }
+  /*-----product----*/
+  .accordion-item {
+    flex: 0 0 calc(50% - 20px); /* Adjust width as needed */
+    margin-bottom: 20px; /* Adjust margin between items */
+  }
+  
 }
+
