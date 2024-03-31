@@ -486,6 +486,12 @@ p {
 .product__category--accordion.active:after {
   content: "\2212";
 }
+
+/*--------- --resorses----*/
+.resourses__paragraph {
+  max-width: 60ch; /* Limiting paragraph width to 60-80 characters */
+  margin: 0 auto 1rem; /* Centering paragraphs within the container and adding bottom margin */
+}
 /*=========================================================Desktop==========================================================*/
 @media only screen and (min-width: 768px) {
   /***padding top*/
