@@ -43,3 +43,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+function showNav() {
+  var element = document.getElementById("nav-items");
+  element.classList.toggle("show-items");
+}

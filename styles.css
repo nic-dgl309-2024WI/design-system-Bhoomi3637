@@ -350,6 +350,76 @@ p {
   width: 100%; /* Full width */
 }
 /*=====================================Outback Nursury======================================*/
+/*-----promotion ---*/
+.Promotion {
+  position: relative;
+  width: 100%;
+  background-color: var(--clr-primary-bg);
+
+  overflow: hidden;
+}
+.Promotion .scroll {
+  width: 100%;
+  display: flex;
+}
+.Promotion .scroll div {
+  color: var(--clr-primary-text);
+  font-size: 2em;
+  background-color: var(--clr-primary-bg);
+  white-space: nowrap;
+  font-weight: 900;
+  animation: animate 40s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/*---------Header--------*/
+header {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--clr-secondary-bg);
+}
+
+nav {
+  padding-top: 15px;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  opacity: 0;
+  transition: all 2s;
+}
+
+nav ul li {
+  padding: 8px 0;
+}
+
+nav ul li a {
+  color: var(--clr-secondary-text);
+  text-decoration: none;
+}
+
+.show-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  opacity: 1;
+}
+.toggle {
+  color: var(--clr-secondary-text);
+}
 /*----Hero section-----*/
 .hero {
   position: relative;
@@ -513,7 +583,29 @@ p {
     max-width: 1200px; /* Adjust the maximum width as needed */
   }
   /*--------OutBack Nursery---------*/
+  /*------header----*/
+  header {
+    align-items: center;
+  }
 
+  nav {
+    padding-top: 0;
+  }
+  nav ul {
+    display: inline;
+  }
+  nav .toggle {
+    display: none;
+  }
+
+  #nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-weight: 600;
+  }
+
+/*-------hero section------*/
   .hero {
     position: relative;
   }
@@ -542,30 +634,7 @@ p {
     display: none;
   }
 }
-.Promotion {
-  position: relative;
-  width: 100%;
-  background-color: var(--clr-primary-bg);
-  
-  overflow: hidden;
-}
-.Promotion .scroll {
-  width: 100%;
-  display: flex;
-}
-.Promotion .scroll div {
-  color: var(--clr-primary-text);
-  font-size: 3em;
-  background-color: var(--clr-primary-bg);
-  white-space: nowrap;
-  font-weight: 900;
-  animation: animate 40s linear infinite;
-}
-@keyframes animate {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
+
+
+
