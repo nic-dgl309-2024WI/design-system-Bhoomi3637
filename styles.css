@@ -475,6 +475,9 @@ p {
   border-radius: 4%;
   width: 250px;
 }
+/*----About us---*/
+/*----testimonial----*/
+
 /*=========================================================Desktop==========================================================*/
 @media only screen and (min-width: 768px) {
   /***padding top*/
@@ -537,5 +540,32 @@ p {
   }
   .resourse__image-mobile {
     display: none;
+  }
+}
+.Promotion {
+  position: relative;
+  width: 100%;
+  background-color: var(--clr-primary-bg);
+  
+  overflow: hidden;
+}
+.Promotion .scroll {
+  width: 100%;
+  display: flex;
+}
+.Promotion .scroll div {
+  color: var(--clr-primary-text);
+  font-size: 3em;
+  background-color: var(--clr-primary-bg);
+  white-space: nowrap;
+  font-weight: 900;
+  animation: animate 40s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
