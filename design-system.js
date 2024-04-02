@@ -47,3 +47,22 @@ function showNav() {
   var element = document.getElementById("nav-items");
   element.classList.toggle("show-items");
 }
+
+let currentIndex = 0;
+
+function moveCarousel(direction) {
+  const productContainer = document.querySelector('.product_container');
+  const productCards = document.querySelectorAll('.product_card');
+  console.log('Product Container:', productContainer);
+  console.log('Product Cards:', productCards);
+  const cardWidth = productCards[0].offsetWidth;
+  console.log('Card Width:', cardWidth);
+
+  if (direction === -1 && currentIndex > 0) {
+      currentIndex--;
+  } else if (direction === 1 && currentIndex < productCards.length - 1) {
+      currentIndex++;
+  }
+
+  productContainer.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+}
