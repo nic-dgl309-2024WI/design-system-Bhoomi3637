@@ -36,6 +36,7 @@
       </div>
     </div>
     <header>
+      <div class=" navbar max-width-desktop max-width-mobile">
       <div>
         <img src="images/placeholder-square.jpg" alt="logo" width="50" />
       </div>
@@ -51,6 +52,7 @@
           <li><a href="">Contact</a></li>
         </ul>
       </nav>
+      </div>
     </header>
     <main>
       <section class="hero">
@@ -96,16 +98,83 @@
       <!-------------Product -- -------->
       <section class="max-width-desktop max-width-mobile">
         <h2>Our Best Seller</h2>
-        <div class="product_contanier">
-          <div id="product_card" class="product_card">
-            <div class="product_image">
-              <img src="images/Plant1.jpg" alt="product" />
+        <div class="carousel">
+          <div class="product_contanier l-flex">
+            <div class="product_card">
+              <div class="product_image">
+                <img src="images/Skimmia_product.jpg" alt="product" />
+              </div>
+              <div class="product_discription">
+                <h3>Skimmia</h3>
+                <span>$15</span>
+              </div>
             </div>
-            <div class="product_discription">
-              <h3>Product Name</h3>
-              <span>$15</span>
+            <div class="product_card">
+              <div class="product_image">
+                <img src="images/bluestar_product.jpg" alt="product" />
+              </div>
+              <div class="product_discription">
+                <h3>Blue Start</h3>
+                <span>$15</span>
+              </div>
+            </div>
+            <div class="product_card">
+              <div class="product_image">
+                <img src="images/crimson-queen-plant.jpg" alt="product" />
+              </div>
+              <div class="product_discription">
+                <h3>Crimson Queen</h3>
+                <span>$15</span>
+              </div>
+            </div>
+            <div class="product_card">
+              <div class="product_image">
+                <img src="images/japanese_honeysuckle--plant.jpg" alt="product" />
+              </div>
+              <div class="product_discription">
+                <h3>japanese_honeysuckle</h3>
+                <span>$15</span>
+              </div>
+            </div>
+            <div class="product_card">
+              <div class="product_image">
+                <img src="images/OLIVE-TREE-plant.jpg" alt="product" />
+              </div>
+              <div class="product_discription">
+                <h3>OLIVE-TREE</h3>
+                <span>$15</span>
+              </div>
+            </div>
+            <div class="product_card">
+              <div class="product_image">
+                <img src="images/blue star2.jpg" alt="product" />
+              </div>
+              <div class="product_discription">
+                <h3>Product Name</h3>
+                <span>$15</span>
+              </div>
+            </div>
+            <div class="product_card">
+              <div class="product_image">
+                <img src="images/Plant1.jpg" alt="product" />
+              </div>
+              <div class="product_discription">
+                <h3>Product Name</h3>
+                <span>$15</span>
+              </div>
+            </div>
+            <div class="product_card">
+              <div class="product_image">
+                <img src="images/Plant1.jpg" alt="product" />
+              </div>
+              <div class="product_discription">
+                <h3>Product Name</h3>
+                <span>$15</span>
+              </div>
             </div>
           </div>
+          <button class="prev" onclick="moveCarousel(-1)">❮</button>
+          <button class="next" onclick="moveCarousel(1)">❯</button>
         </div>
 
         <div class="product__category">
@@ -116,10 +185,14 @@
               <button class="product__category--accordion">CONIFERS</button>
               <div class="product__category__content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Conifers are cone-bearing, mostly evergreen trees and shrubs
+                  known for their needle-like or scale-like leaves. They
+                  reproduce via cones, with male cones producing pollen and
+                  female cones containing seeds. These trees play vital roles in
+                  ecosystems, providing habitat, stabilizing soil, and serving
+                  as a valuable source of wood. Common examples include pines,
+                  spruces, and firs, prized for their economic and ornamental
+                  value.
                 </p>
               </div>
             </div>
@@ -130,10 +203,16 @@
               </button>
               <div class="product__category__content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Evergreen refers to plants, mostly trees and shrubs, that
+                  retain their foliage throughout the year, unlike deciduous
+                  plants that shed their leaves seasonally. These plants often
+                  have adaptations like needle-shaped leaves or thick waxy
+                  coatings to conserve water. Evergreens provide year-round
+                  color and texture to landscapes, offer shelter for wildlife,
+                  and can serve as windbreaks and privacy screens. They are
+                  popular in landscaping for their aesthetic appeal and low
+                  maintenance requirements. Examples include pine, cedar, and
+                  holly trees.
                 </p>
               </div>
             </div>
@@ -143,10 +222,15 @@
               <button class="product__category--accordion">DECIDUOUS</button>
               <div class="product__category__content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Deciduous trees and plants are those that shed their leaves
+                  annually in response to seasonal changes, typically during the
+                  fall or autumn. This shedding allows them to conserve energy
+                  and water during colder months and prepare for new growth in
+                  the spring. Deciduous forests showcase vibrant foliage colors
+                  in autumn before the leaves fall, creating a picturesque
+                  landscape. Examples of deciduous trees include oak, maple, and
+                  birch, which are widely appreciated for their beauty and
+                  ecological importance.
                 </p>
               </div>
             </div>
@@ -157,10 +241,16 @@
               </button>
               <div class="product__category__content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Japanese maples, scientifically known as Acer palmatum, are
+                  ornamental trees or shrubs native to Japan, Korea, and China.
+                  They are prized for their stunning foliage, which comes in
+                  various colors including red, green, purple, and variegated
+                  combinations. Japanese maples are popular in landscaping for
+                  their graceful, delicate leaves and attractive branching
+                  patterns, adding beauty and elegance to gardens and
+                  landscapes. They prefer partial shade and well-drained soil,
+                  making them ideal for adding color and interest to gardens
+                  with their vibrant hues and unique textures.
                 </p>
               </div>
             </div>
@@ -286,26 +376,38 @@
           </div>
         </div>
       </section>
-      
+
       <section>
         <div class="max-width-desktop max-width-mobile">
-        <h2>Have any Question or Feedback?</h2>
-        <p>We are happy to hear from you.</p>
-        <div class="l-flex l-flex-column l-flex-row l-fgap-15">
-          <div>
-        <p>Stay upadated with our latest events & gardening tips</p>
-        <a href="">Stay Connect</a>
+          <h2>Have any Question or Feedback?</h2>
+          <p>We are happy to hear from you.</p>
+          <div class="l-flex l-flex-column l-flex-row l-fgap-15">
+            <div>
+              <p>Stay upadated with our latest events & gardening tips</p>
+              <a href="">Stay Connect</a>
+            </div>
+            <form action="#" method="post">
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                required
+              /><br />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+              /><br />
+              <textarea name="message" placeholder="Message" required></textarea
+              ><br />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
         </div>
-        <form action="#" method="post">
-          <input type="text" name="name" placeholder="Name" required><br>
-          <input type="email" name="email" placeholder="Email" required><br>
-          <textarea name="message" placeholder="Message" required></textarea><br>
-          <input type="submit" value="Submit">
-        </form>
-</div>
-</div>
       </section>
     </main>
+    <footer></footer>
     <script src="design-system.js"></script>
   </body>
 </html>
