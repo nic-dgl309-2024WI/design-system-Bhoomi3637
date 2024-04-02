@@ -547,7 +547,44 @@ nav ul li a {
 }
 /*----About us---*/
 /*----testimonial----*/
+/*--------contact us----*/
+form {
+  width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
 /*=========================================================Desktop==========================================================*/
 @media only screen and (min-width: 768px) {
   /***padding top*/
@@ -576,6 +613,9 @@ nav ul li a {
   }
   .l-fgap-15 {
     gap: 15rem;
+  }
+  .l-fgap-5 {
+    gap: 5rem;
   }
   /*---container for center content---*/
   .max-width-desktop {
@@ -633,45 +673,12 @@ nav ul li a {
   .resourse__image-mobile {
     display: none;
   }
-}
-
-
-
-
+  /*----contact us--*/
 form {
-  width: 500px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 8px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: none;
-}
 
-textarea {
-  height: 150px;
-}
 
-input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-}
 
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
