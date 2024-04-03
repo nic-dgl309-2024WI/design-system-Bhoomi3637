@@ -57,7 +57,7 @@
         <ul>
           <h3 class="sidebar__heading u-lh-heading u-ls-heading">Navigation</h3>
           <div class="u-lh-body u-ls-body">
-            <li><a href="navbar.html">09 Navbars </a></li>
+            <li><a href="">09 Navbars </a></li>
             <li><a href="">10 Breadcrumbs </a></li>
             <li><a href="">11 Pagination </a></li>
           </div>
@@ -78,7 +78,7 @@
           <div class="u-lh-body u-ls-body">
             <li><a href="">16 Cards </a></li>
             <li><a href="form.html">17 Forms </a></li>
-            <li><a href="">18 Accordion </a></li>
+            <li><a href="Accordion.html">18 Accordion </a></li>
             <li><a href="">19 Lists </a></li>
           </div>
         </ul>
@@ -158,8 +158,92 @@
       </div>
     </nav>
     <main class="main-content l-pl-19 l-pt-6_5">
+      
         
-    
-      </main>
+      <div class="code-container">
+        <h2>HTML Example:</h2>
+        <pre>
+        &lt;div class="accordion-item"&gt;
+            &lt;button class="product__category--accordion"&gt;CONIFERS&lt;/button&gt;
+            &lt;div class="product__category__content"&gt;
+                &lt;p&gt;
+                    Conifers are cone-bearing, mostly evergreen trees and shrubs
+                    known for their needle-like or scale-like leaves. They
+                    reproduce via cones, with male cones producing pollen and
+                    female cones containing seeds. These trees play vital roles
+                    in ecosystems, providing habitat, stabilizing soil, and
+                    serving as a valuable source of wood. Common examples
+                    include pines, spruces, and firs, prized for their economic
+                    and ornamental value.
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="accordion-item"&gt;
+            &lt;button class="product__category--accordion l-mb-0_5"&gt;EVERGREEN&lt;/button&gt;
+            &lt;div class="product__category__content"&gt;
+                &lt;p&gt;
+                    Evergreen refers to plants, mostly trees and shrubs, that
+                    retain their foliage throughout the year, unlike deciduous
+                    plants that shed their leaves seasonally. These plants often
+                    have adaptations like needle-shaped leaves or thick waxy
+                    coatings to conserve water. Evergreens provide year-round
+                    color and texture to landscapes, offer shelter for wildlife,
+                    and can serve as windbreaks and privacy screens. They are
+                    popular in landscaping for their aesthetic appeal and low
+                    maintenance requirements. Examples include pine, cedar, and
+                    holly trees.
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            </pre
+        >
+      </div>
+
+      <div class="code-container">
+        <h2>CSS Code:</h2>
+        <pre>
+        .product__category--accordion {
+            width: 100%;
+            background-color: var(--clr-nuetral);
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            border: none;
+            border-radius: 2%;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+        
+        .product__category--accordion.active,
+        .product__category--accordion:hover {
+            background-color: #ccc;
+        }
+        
+        .product__category__content {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+        
+        .product__category--accordion:after {
+            content: "\002B";
+            color: #777;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+        
+        .product__category--accordion.active:after {
+            content: "\2212";
+        }
+            </pre
+        >
+      </div>
+    </main>
+     <script src="design-system.js"></script>
   </body>
 </html>
