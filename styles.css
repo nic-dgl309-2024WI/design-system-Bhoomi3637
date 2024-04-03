@@ -350,6 +350,12 @@ p {
   width: 100%; /* Full width */
 }
 /*=====================================Outback Nursury======================================*/
+h1,h2,h3,h4{
+  font-family: var(--font-heading);
+}
+p{
+  font-size: var(--font-body);
+}
 /*-----promotion ---*/
 .Promotion {
   position: relative;
@@ -389,7 +395,7 @@ p {
 
 
 /*---------Header--------*/
-header {
+.header {
   background-color: var(--clr-secondary-bg);
   position: fixed;
   top: 50px; /* Adjust this value to ensure it appears below the header */
@@ -397,29 +403,37 @@ header {
   width: 100%;
   z-index: 999;
 }
+.comingsoon_header{
+  background-color: var(--clr-secondary-bg);
+  position: fixed;
+  top: 0; /* Adjust this value to ensure it appears below the header */
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
 .navbar {
   border-radius: 3px;
   padding: 0 16px;
   display: flex;
   justify-content: space-between;
 }
-nav {
+.navbar_navigation {
   padding-top: 20px;
   text-align: right;
 }
 
-nav ul {
+.navbar_navigation ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: none;
 }
 
-nav ul li {
+.navbar_navigation ul li {
   padding: 8px 0;
 }
 
-nav ul li a {
+.navbar_navigation ul li a {
   color: var(--clr-secondary-text);
   text-decoration: none;
   font-weight: var(--fw-700);
@@ -471,7 +485,8 @@ nav ul li a {
 
 .hero__text .cta-btn,
 .resourse__content .cta-btn,
-.aboutUs_content .cta-btn {
+.aboutUs_content .cta-btn,
+.cta-btn {
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--clr-accent);
@@ -622,11 +637,38 @@ nav ul li a {
   height: 20vh;
 }
 /*----About us---*/
-
-/*----testimonial----*/
-.testimonial{
-
+.about__us{
+  margin-top: 3%;
 }
+.aboutUs_content{
+  margin: 0 10%;
+}
+.aboutUs_image img{
+  border-radius: 4%;
+}
+/*----testimonial----*/
+.testimonial_card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Adjust as needed */
+}
+
+.testimonial_card p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.testimonial_card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
 .testimonial_card{
   text-align: center;
   background-color: transparent;
@@ -672,6 +714,16 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+/*-----footer---*/
+footer{
+  background-color: var(--clr-secondary-bg);
+  color: var(--clr-secondary-text);
+  padding-top: 20px;
+}
+.footer{
+  align-content:space-between;
+  gap: 200px;
+}
 /*=========================================================Desktop==========================================================*/
 @media only screen and (min-width: 768px) {
   /***padding top*/
@@ -715,19 +767,19 @@ input[type="submit"]:hover {
   }
   /*--------OutBack Nursery---------*/
   /*------header----*/
-  header {
+  .header {
     align-items: center;
   }
 
-  nav {
+  .navbar_navigation {
     padding-top: 8px;
     padding-right: 120px;
     text-align: right;
   }
-  nav ul {
+  .navbar_navigation ul {
     display: inline;
   }
-  nav .toggle {
+  .navbar_navigation .toggle {
     display: none;
   }
 
