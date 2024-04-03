@@ -577,7 +577,9 @@ p{
 .product-card {
   margin-right: 20px; /* Adjust margin between cards for smaller screens */
 }
-
+.product_discription{
+  text-align: center;
+}
 /*-------product category----*/
 
 .product__category--accordion {
