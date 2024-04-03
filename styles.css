@@ -378,8 +378,25 @@ p {
   }
 }
 
+.Promotion{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
 
+
+/*---------Header--------*/
+header {
+  background-color: var(--clr-secondary-bg);
+  position: fixed;
+  top: 50px; /* Adjust this value to ensure it appears below the header */
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
 .navbar {
   border-radius: 3px;
   padding: 0 16px;
