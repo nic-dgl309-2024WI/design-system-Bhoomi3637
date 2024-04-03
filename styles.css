@@ -342,7 +342,7 @@ p {
 /*-----container for mobile--*/
 .max-width-mobile {
   margin: 0 auto; /* Center the main content horizontally */
-  padding: 0 20px; /* Add padding to the sides to create space */
+  padding: 0 10px; /* Add padding to the sides to create space */
   max-width: 100%; /* Allow the main content to take up the full width of the screen */
 }
 
@@ -355,7 +355,6 @@ p {
   position: relative;
   width: 100%;
   background-color: var(--clr-primary-bg);
-
   overflow: hidden;
 }
 .Promotion .scroll {
@@ -483,16 +482,6 @@ nav ul li a {
   border-radius: 4%;
 }
 
-.carousel {
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-
-.product_container {
-  transition: transform 0.5s ease; /* Smooth transition for sliding effect */
-}
-
 .product_card {
   flex: 0 0 auto;
   margin-right: 20px; /* Spacing between cards */
@@ -503,30 +492,53 @@ nav ul li a {
   height: auto;
 }
 
-.product_description {
-  margin-top: 10px;
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
 }
 
-.prev,
-.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: transparent;
+.product_contanier {
+  padding: 0 5vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.pre-btn,
+.nxt-btn {
   border: none;
-  outline: none;
+  width: 5vw;
+  height: 50%;
+  position: absolute;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
   cursor: pointer;
-  font-size: 24px;
-  padding: 10px;
-  z-index: 1;
+  z-index: 8;
 }
-
-.prev {
+.pre-btn {
   left: 0;
 }
 
-.next {
+.nxt-btn {
   right: 0;
+}
+.product-container {
+  padding: 0 5vw; /* Adjust padding for smaller screens */
+  scroll-snap-type: x mandatory; /* Ensure smooth horizontal scrolling */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+}
+
+.product-card {
+  margin-right: 20px; /* Adjust margin between cards for smaller screens */
 }
 
 /*-------product category----*/
