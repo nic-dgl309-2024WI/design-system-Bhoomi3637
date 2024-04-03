@@ -624,6 +624,16 @@ nav ul li a {
 /*----About us---*/
 
 /*----testimonial----*/
+.testimonial{
+
+}
+.testimonial_card{
+  text-align: center;
+  background-color: transparent;
+  width: 300px;
+  box-shadow: #ccc;
+  margin: 2% 5% 2% 5%;
+}
 /*--------contact us----*/
 form {
   width: 250px;
