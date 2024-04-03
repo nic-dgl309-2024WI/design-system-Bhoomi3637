@@ -350,18 +350,22 @@ p {
   width: 100%; /* Full width */
 }
 /*=====================================Outback Nursury======================================*/
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-heading);
-
-  
 }
-h1{
+h1 {
   text-align: center;
 }
-p{
+p {
   font-family: var(--font-body);
 }
-
+.main_heading {
+  text-align: center;
+  font-size: 2rem;
+}
 /*-----promotion ---*/
 .Promotion {
   position: relative;
@@ -390,15 +394,13 @@ p{
   }
 }
 
-.Promotion{
+.Promotion {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
 }
-
-
 
 /*---------Header--------*/
 .header {
@@ -409,7 +411,7 @@ p{
   width: 100%;
   z-index: 999;
 }
-.comingsoon_header{
+.comingsoon_header {
   background-color: var(--clr-secondary-bg);
   position: fixed;
   top: 0; /* Adjust this value to ensure it appears below the header */
@@ -503,10 +505,10 @@ p{
   font-weight: var(--fw-500);
 }
 
-.hero__text .cta-btn:hover ,
+.hero__text .cta-btn:hover,
 .resourse__content .cta-btn:hover,
 .aboutUs_content .cta-btn:hover,
-.cta-btn:hover{
+.cta-btn:hover {
   background-color: var(--clr-nuetral);
   color: var(--clr-accent);
   border: 2px solid var(--clr-accent);
@@ -583,12 +585,12 @@ p{
 .product-card {
   margin-right: 20px; /* Adjust margin between cards for smaller screens */
 }
-.product_discription{
+.product_discription {
   text-align: center;
 }
-.product_cta,.product_category_cta{
+.product_cta,
+.product_category_cta {
   text-align: center;
-  
 }
 
 /*-------product category----*/
@@ -647,22 +649,22 @@ p{
   width: 250px;
 }
 /*----services---*/
-.services{
- align-items: center;
+.services {
+  align-items: center;
 }
 
-.services img{
+.services img {
   width: 150px;
   height: 20vh;
 }
 /*----About us---*/
-.about__us{
+.about__us {
   margin-top: 3%;
 }
-.aboutUs_content{
+.aboutUs_content {
   margin: 0 10%;
 }
-.aboutUs_image img{
+.aboutUs_image img {
   border-radius: 4%;
 }
 /*----testimonial----*/
@@ -688,7 +690,7 @@ p{
   color: #333;
 }
 
-.testimonial_card{
+.testimonial_card {
   text-align: center;
   background-color: transparent;
   width: 300px;
@@ -734,19 +736,18 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 /*-----footer---*/
-footer{
+footer {
   background-color: var(--clr-secondary-bg);
   color: var(--clr-secondary-text);
   padding-top: 20px;
   text-align: center;
 }
 
-.footer_contact a{
-color: var(--clr-secondary-text);
+.footer_contact a {
+  color: var(--clr-secondary-text);
 }
-.copyright p{
+.copyright p {
   text-align: center;
- 
 }
 /*=========================================================Desktop==========================================================*/
 @media only screen and (min-width: 768px) {
@@ -790,6 +791,9 @@ color: var(--clr-secondary-text);
     max-width: 1200px; /* Adjust the maximum width as needed */
   }
   /*--------OutBack Nursery---------*/
+  .main_heading {
+    font-size: 3rem;
+  }
   /*------header----*/
   .header {
     align-items: center;
@@ -848,8 +852,8 @@ color: var(--clr-secondary-text);
     width: 350px;
   }
   /*--footer*/
-  .footer{
-    align-content:space-between;
+  .footer {
+    align-content: space-between;
     gap: 200px;
   }
 }
