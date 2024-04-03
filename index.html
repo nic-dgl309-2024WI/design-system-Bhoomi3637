@@ -30,9 +30,9 @@
   <body>
     <div class="Promotion">
       <div class="scroll">
-        <div><span>Get your</span> <span>Discounted Tree</span></div>
+        <div><img src="images/icons8-potted-plant-48.png"><span>Get your</span> <span>Discounted Tree</span></div>
 
-        <div><span>Get your</span> <span>Discounted Tree</span></div>
+        <div><img src="images/icons8-potted-plant-48.png"><span>Get your</span> <span>Discounted Tree</span></div>
       </div>
     </div>
     <header>
@@ -97,9 +97,13 @@
       </section>
       <!-------------Product -- -------->
       <section class="max-width-desktop max-width-mobile">
+        <div class="product">
         <h2>Our Best Seller</h2>
-        <div class="carousel">
-          <div class="product_contanier l-flex">
+        <button class="pre-btn" onclick="moveCarousel(-1)">&#10094; </button>
+          <button class="nxt-btn" onclick="moveCarousel(1)">&#10095;</button>
+       
+          
+          <div class="product_contanier">
             <div class="product_card">
               <div class="product_image">
                 <img src="images/Skimmia_product.jpg" alt="product" />
@@ -118,15 +122,8 @@
                 <span>$15</span>
               </div>
             </div>
-            <div class="product_card">
-              <div class="product_image">
-                <img src="images/crimson-queen-plant.jpg" alt="product" />
-              </div>
-              <div class="product_discription">
-                <h3>Crimson Queen</h3>
-                <span>$15</span>
-              </div>
-            </div>
+            
+            
             <div class="product_card">
               <div class="product_image">
                 <img src="images/japanese_honeysuckle--plant.jpg" alt="product" />
@@ -172,10 +169,13 @@
                 <span>$15</span>
               </div>
             </div>
+            
+            
+       
           </div>
-          <button class="prev" onclick="moveCarousel(-1)">❮</button>
-          <button class="next" onclick="moveCarousel(1)">❯</button>
-        </div>
+          
+          
+        
 
         <div class="product__category">
           <h2>Our Category</h2>
@@ -255,6 +255,7 @@
               </div>
             </div>
           </div>
+        </div>
         </div>
       </section>
       <section>

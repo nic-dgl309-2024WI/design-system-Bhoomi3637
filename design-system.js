@@ -48,21 +48,42 @@ function showNav() {
   element.classList.toggle("show-items");
 }
 
-let currentIndex = 0;
 
-function moveCarousel(direction) {
-  const productContainer = document.querySelector('.product_container');
-  const productCards = document.querySelectorAll('.product_card');
-  console.log('Product Container:', productContainer);
-  console.log('Product Cards:', productCards);
-  const cardWidth = productCards[0].offsetWidth;
-  console.log('Card Width:', cardWidth);
+const productContainers = [...document.querySelectorAll('.product_contanier')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+const preBtn = [...document.querySelectorAll('.pre-btn')];
 
-  if (direction === -1 && currentIndex > 0) {
-      currentIndex--;
-  } else if (direction === 1 && currentIndex < productCards.length - 1) {
-      currentIndex++;
-  }
+productContainers.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
 
-  productContainer.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-}
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+})
+
+window.addEventListener('resize', () => {
+    const isMobile = window.innerWidth <= 768; // Check if the window width is less than or equal to 768px
+  
+    productContainers.forEach((item, i) => {
+      let containerDimensions = item.getBoundingClientRect();
+      let containerWidth = containerDimensions.width;
+  
+      if (isMobile) {
+        // If mobile, adjust the container width based on the window width
+        containerWidth = window.innerWidth - 10; // Adjusted padding
+      }
+  
+      nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+      });
+  
+      preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+      });
+    });
+  });
