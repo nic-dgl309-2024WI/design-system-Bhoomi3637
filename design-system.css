@@ -157,6 +157,20 @@ p {
   align-items: center;
   flex-direction: column; /* Allow content to scroll */
 } 
+ /* Style for code block */
+ .code-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style for code snippet */
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  overflow-x: auto;
+}
+
 /*====================================================Destktop===============================================================================*/
 @media only screen and (min-width: 768px) {
   .top__navbar,

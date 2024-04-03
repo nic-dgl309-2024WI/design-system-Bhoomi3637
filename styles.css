@@ -494,12 +494,18 @@ p{
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  font-weight: var(--fw-500);
 }
 
-.hero__text .cta-btn:hover {
+.hero__text .cta-btn:hover ,
+.resourse__content .cta-btn:hover,
+.aboutUs_content .cta-btn:hover,
+.cta-btn:hover{
   background-color: var(--clr-nuetral);
   color: var(--clr-accent);
-  border: var(--clr-accent);
+  border: 2px solid var(--clr-accent);
+  font-weight: var(--fw-500);
+  border-radius: 5px;
 }
 
 /*---------------------Product ----------------*/
