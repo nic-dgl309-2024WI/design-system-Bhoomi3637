@@ -16,6 +16,9 @@ p {
   max-width: 80ch; /* Limiting paragraph width to 60-80 characters */
   margin: 0 auto 1rem; /* Centering paragraphs within the container and adding bottom margin */
 }
+.h1_mobile{
+  font-size: 24px;
+}
 /*for active page*/
 .active {
   font-weight: var(--fw-700);
@@ -128,12 +131,12 @@ tr:nth-child(even) {
   color: var(--clr-secondary-text);
   background-color: var(--clr-secondary-bg);
 }
-.table__heading--border{
+.table__heading--border {
   border: 1px solid var(--clr-nuetral);
   border-radius: 8px;
 }
 /*-------About me-----*/
-img {
+.about-me_image {
   width: 100%;
   height: auto;
   max-width: 500px;
@@ -156,25 +159,50 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column; /* Allow content to scroll */
-} 
- /* Style for code block */
- .code-container {
+}
+/* Style for code block */
+.code-container {
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 20px;
 }
-
+/*------Breadcrumps-----*/
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
 /* Style for code snippet */
 pre {
   background-color: #f4f4f4;
   padding: 10px;
   overflow-x: auto;
 }
-.footer img{
+.footer img {
   width: 40px;
 }
 /*====================================================Destktop===============================================================================*/
 @media only screen and (min-width: 768px) {
+  .h1_desktop{
+    font-size: 32px;
+  }
   .top__navbar,
   .side__bar {
     display: block;
@@ -184,7 +212,7 @@ pre {
     width: 100%;
     z-index: 1000;
   }
- 
+
   .side__bar {
     width: 15%;
     margin-top: 5%;
@@ -207,7 +235,7 @@ pre {
     gap: 20px;
   }
   /*--------color--------*/
-  .color-container__item{
+  .color-container__item {
     width: 400px;
   }
 
@@ -220,7 +248,14 @@ pre {
   th {
     font-size: var(--body-size);
   }
-  .typography__border{
+  .typography__border {
     width: 420px;
+  }
+  /*---about me--*/
+  .about-me_image {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: 0 auto 1rem;
   }
 }
