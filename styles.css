@@ -352,10 +352,16 @@ p {
 /*=====================================Outback Nursury======================================*/
 h1,h2,h3,h4{
   font-family: var(--font-heading);
+
+  
+}
+h1{
+  text-align: center;
 }
 p{
-  font-size: var(--font-body);
+  font-family: var(--font-body);
 }
+
 /*-----promotion ---*/
 .Promotion {
   position: relative;
@@ -580,6 +586,11 @@ p{
 .product_discription{
   text-align: center;
 }
+.product_cta,.product_category_cta{
+  text-align: center;
+  
+}
+
 /*-------product category----*/
 
 .product__category--accordion {
@@ -727,11 +738,9 @@ footer{
   background-color: var(--clr-secondary-bg);
   color: var(--clr-secondary-text);
   padding-top: 20px;
+  text-align: center;
 }
-.footer{
-  align-content:space-between;
-  gap: 200px;
-}
+
 .footer_contact a{
 color: var(--clr-secondary-text);
 }
@@ -837,5 +846,10 @@ color: var(--clr-secondary-text);
   /*----contact us--*/
   form {
     width: 350px;
+  }
+  /*--footer*/
+  .footer{
+    align-content:space-between;
+    gap: 200px;
   }
 }
