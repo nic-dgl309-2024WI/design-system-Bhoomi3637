@@ -177,7 +177,7 @@
           </form>
           <div class="code-container">
             <h2>Example HTML Code:</h2>
-            <pre>
+            <pre id="codeSnippet">
         &lt;form action="#" method="post"&gt;
             &lt;input type="text" name="name" placeholder="Name" required /&gt;&lt;br /&gt;
             &lt;input type="email" name="email" placeholder="Email" required /&gt;&lt;br /&gt;
@@ -185,10 +185,11 @@
             &lt;input type="submit" value="Submit" /&gt;
         &lt;/form&gt;
             </pre>
+            <button onclick="copyToClipboard()">Copy</button>
         </div>
         <div class="css-code-container">
             <h2>CSS Used:</h2>
-            <pre>
+            <pre id="codeSnippet">
         form {
           width: 250px;
           background-color: #fff;
@@ -227,6 +228,7 @@
           background-color: #45a049;
         }
             </pre>
+            <button onclick="copyToClipboard()">Copy</button>
         </div>
       </main>
   </body>
