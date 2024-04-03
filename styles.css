@@ -732,6 +732,13 @@ footer{
   align-content:space-between;
   gap: 200px;
 }
+.footer_contact a{
+color: var(--clr-secondary-text);
+}
+.copyright p{
+  text-align: center;
+ 
+}
 /*=========================================================Desktop==========================================================*/
 @media only screen and (min-width: 768px) {
   /***padding top*/
@@ -777,6 +784,7 @@ footer{
   /*------header----*/
   .header {
     align-items: center;
+    padding: 10px 0;
   }
 
   .navbar_navigation {
