@@ -452,7 +452,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  opacity: 1;
+ 
+  
 }
 .toggle {
   color: var(--clr-secondary-text);
@@ -588,6 +589,9 @@ p {
 .product_discription {
   text-align: center;
 }
+.product_discription h3{
+  font-size: var(--h4-size);
+}
 .product_cta,
 .product_category_cta {
   text-align: center;
@@ -657,6 +661,9 @@ p {
   width: 150px;
   height: 20vh;
 }
+.services h4{
+  font-size: var(--h3-size);
+}
 /*----About us---*/
 .about__us {
   margin-top: 3%;
@@ -666,6 +673,13 @@ p {
 }
 .aboutUs_image img {
   border-radius: 4%;
+
+}
+.aboutUs_content-dektop{
+  display: none;
+}
+.aboutUs_content-dektop p,.aboutUs_content-dektop p{
+  font-size: var(--font-body);
 }
 /*----testimonial----*/
 .testimonial_card {
@@ -748,6 +762,7 @@ footer {
 }
 .copyright p {
   text-align: center;
+  font-size: var(--font-body);
 }
 /*=========================================================Desktop==========================================================*/
 @media only screen and (min-width: 768px) {
@@ -838,7 +853,13 @@ footer {
     flex: 0 0 calc(50% - 20px); /* Adjust width as needed */
     margin-bottom: 20px; /* Adjust margin between items */
   }
-
+/*-----about us---*/
+.aboutUs_content-dektop{
+  display: block;
+}
+.aboutUs_content-mobile{
+  display: none;
+}
   /*---Resorces--*/
   .resourse__image-desktop {
     display: block;
