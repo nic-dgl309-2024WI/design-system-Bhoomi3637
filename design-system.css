@@ -170,7 +170,9 @@ pre {
   padding: 10px;
   overflow-x: auto;
 }
-
+.footer img{
+  width: 40px;
+}
 /*====================================================Destktop===============================================================================*/
 @media only screen and (min-width: 768px) {
   .top__navbar,
