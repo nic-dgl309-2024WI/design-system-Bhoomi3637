@@ -136,7 +136,7 @@ h3 {
   font-size: var(--h3-size);
 }
 p {
-  font-size: var(--body-size);
+  font-size: var(--body-size-m);
 }
 /*--------------------Margin--------------------*/
 /* Applies margin to all sides */
@@ -452,8 +452,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
- 
-  
 }
 .toggle {
   color: var(--clr-secondary-text);
@@ -589,7 +587,7 @@ p {
 .product_discription {
   text-align: center;
 }
-.product_discription h3{
+.product_discription h3 {
   font-size: var(--h4-size);
 }
 .product_cta,
@@ -641,7 +639,9 @@ p {
 }
 
 /*--------- --Resources----*/
+
 .resourses__paragraph {
+  font-size: 18px;
   max-width: 60ch; /* Limiting paragraph width to 60-80 characters */
   margin: 0 auto 1rem; /* Centering paragraphs within the container and adding bottom margin */
 }
@@ -656,12 +656,14 @@ p {
 .services {
   align-items: center;
 }
-
-.services img {
-  width: 150px;
-  height: 20vh;
+.service--content {
+  border-radius: 4%;
+  height: 35vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
 }
-.services h4{
+
+.services h4 {
   font-size: var(--h3-size);
 }
 /*----About us---*/
@@ -673,13 +675,13 @@ p {
 }
 .aboutUs_image img {
   border-radius: 4%;
-
 }
-.aboutUs_content-dektop{
+.aboutUs_content-dektop {
   display: none;
 }
-.aboutUs_content-dektop p,.aboutUs_content-dektop p{
-  font-size: var(--font-body);
+.aboutUs_content-dektop p,
+.aboutUs_content-dektop p {
+  font-size: 16px;
 }
 /*----testimonial----*/
 .testimonial_card {
@@ -794,8 +796,8 @@ footer {
   .l-grid-gap-row--3 {
     grid-row-gap: 3rem;
   }
-  .l-fgap-15 {
-    gap: 15rem;
+  .l-fgap-10 {
+    gap: 10rem;
   }
   .l-fgap-5 {
     gap: 5rem;
@@ -853,24 +855,40 @@ footer {
     flex: 0 0 calc(50% - 20px); /* Adjust width as needed */
     margin-bottom: 20px; /* Adjust margin between items */
   }
-/*-----about us---*/
-.aboutUs_content-dektop{
-  display: block;
-}
-.aboutUs_content-mobile{
-  display: none;
-}
+  /*-----services---*/
+  .service--content {
+    border-radius: 4%;
+    height: 50vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  /*-----about us---*/
+  .aboutUs_content-dektop {
+    display: block;
+  }
+  .aboutUs_content-mobile {
+    display: none;
+  }
   /*---Resorces--*/
+  .resourse__content--left {
+    margin-left: 8rem;
+  }
+  .resourse__content--right {
+    margin-right: 8rem;
+  }
   .resourse__image-desktop {
+    margin-left: 8rem;
     display: block;
     border-radius: 4%;
   }
   .resourse__image-mobile {
     display: none;
   }
+
   /*----contact us--*/
   form {
     width: 350px;
+    margin-bottom: 20px;
   }
   /*--footer*/
   .footer {
