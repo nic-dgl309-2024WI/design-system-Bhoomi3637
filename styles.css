@@ -643,9 +643,10 @@ p {
 
 /*--------- --Resources----*/
 
+
 .resourses__paragraph {
   font-size: 18px;
-  max-width: 60ch; /* Limiting paragraph width to 60-80 characters */
+  max-width: 40ch; /* Limiting paragraph width to 60-80 characters */
   margin: 0 auto 1rem; /* Centering paragraphs within the container and adding bottom margin */
 }
 .resourse__image-desktop {
@@ -653,7 +654,7 @@ p {
 }
 .resourse__image-mobile {
   border-radius: 4%;
-  width: 250px;
+
 }
 /*----services---*/
 .services {
@@ -661,7 +662,7 @@ p {
 }
 .service--content {
   border-radius: 4%;
-  height: 35vh;
+  height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
 }
@@ -679,7 +680,7 @@ p {
 .aboutUs_image img {
   border-radius: 4%;
 }
-.aboutUs_content-dektop {
+.aboutUs_content-desktop {
   display: none;
 }
 .aboutUs_content-dektop p,
@@ -877,7 +878,8 @@ footer {
     margin-left: 8rem;
   }
   .resourse__content--right {
-    margin-right: 8rem;
+    margin-right: 5rem;
+    margin-left: 8rem;
   }
   .resourse__image-desktop {
     margin-left: 8rem;
