@@ -1,8 +1,8 @@
 /*------toggel code--*/
 function showNav() {
-    var element = document.getElementById("nav-items");
-    element.classList.toggle("show-items");
-  }
+  var element = document.getElementById("nav-items");
+  element.classList.toggle("show-items");
+}
 
 /**-----Hero image slider */
 var slideIndex = 0;

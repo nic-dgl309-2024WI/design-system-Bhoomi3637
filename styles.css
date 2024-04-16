@@ -449,7 +449,7 @@ p {
 }
 
 .show-items {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   align-items: flex-end;
 }
@@ -510,7 +510,10 @@ p {
 .cta-btn:hover {
   background-color: var(--clr-nuetral);
   color: var(--clr-accent);
-  border: 2px solid var(--clr-accent);
+  box-shadow: 1px 2px 5px var(--clr-accent) inset;
+ 
+
+  
   font-weight: var(--fw-500);
   border-radius: 5px;
 }
@@ -545,7 +548,7 @@ p {
 .product_contanier {
   padding: 0 5vw;
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
