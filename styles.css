@@ -6,7 +6,7 @@
   --clr-accent: #5e3838;
   --clr-light: #a6eae2;
   --clr-nuetral: #e4d9db;
-  --clr-nuetral-light: #d6c7ca;
+  --clr-nuetral-light: #F9F7F7;
 }
 /* Font Families */
 :root {
@@ -672,7 +672,7 @@ p {
 }
 /*----About us---*/
 .about__us {
-  margin-top: 3%;
+  margin: 10% auto 5% auto;
 }
 .aboutUs_content {
   margin: 0 10%;
@@ -688,15 +688,20 @@ p {
   font-size: 16px;
 }
 /*----testimonial----*/
+.testimonial{
+  background-color: var(--clr-nuetral-light);
+}
+
 .testimonial_card {
-  background-color: #f9f9f9;
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 400px; /* Adjust as needed */
+  text-align: center;
+  background-color:var(--clr-secondary-text);
+  width: 300px;
+  margin: 2% 5% 2% 5%;
 }
-
 .testimonial_card p {
   font-size: 16px;
   line-height: 1.6;
@@ -710,16 +715,15 @@ p {
   color: #333;
 }
 
-.testimonial_card {
-  text-align: center;
-  background-color: transparent;
-  width: 300px;
-  box-shadow: #ccc;
-  margin: 2% 5% 2% 5%;
-}
+
 /*--------contact us----*/
+.Contact{
+  background-image: url(images/flowers.png);
+  background-size: cover;
+}
 form {
-  width: 250px;
+
+  width: 350px;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -814,6 +818,7 @@ footer {
   /*--------OutBack Nursery---------*/
   .main_heading {
     font-size: 3rem;
+    margin-top: 4rem;
   }
   /*------header----*/
   .header {
@@ -867,6 +872,12 @@ footer {
     width: 400px;
   }
   /*-----about us---*/
+  .aboutUs_image img{
+    width: 600px;
+  }
+  .aboutUs_content {
+    margin: auto auto auto 5%;
+  }
   .aboutUs_content-desktop {
     display: block;
   }
@@ -892,8 +903,10 @@ footer {
 
   /*----contact us--*/
   form {
-    width: 350px;
+    width: 800px;
     margin-bottom: 20px;
+    height: 60vh;
+  
   }
   /*--footer*/
   .footer {
@@ -901,3 +914,5 @@ footer {
     gap: 200px;
   }
 }
+
+
