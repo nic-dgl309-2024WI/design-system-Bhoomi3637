@@ -147,7 +147,13 @@ p {
   max-width: 80ch; /* Limiting paragraph width to 60-80 characters */
   margin: 0 auto 1rem; /* Centering paragraphs within the container and adding bottom margin */
 }
-
+.header img{
+  width: 50px;
+}
+.index__navbar{
+  margin-top: 50px;
+  margin-left: 100px;
+}
 .table-wrapper {
   border: 1px solid black;
   border-radius: 10px; /* Adjust the radius as needed */
@@ -260,4 +266,62 @@ pre {
     display: block;
     margin: 0 auto 1rem;
   }
+}
+
+
+
+.design-system {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.design-system__content p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.design-system__content ul {
+  margin-bottom: 20px;
+}
+
+.design-system__content li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.design-system__content li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.design-system__content li a:hover {
+  color: #007bff;
+}
+
+/* Style for ordered and unordered lists */
+.design-system__content ul {
+  padding-left: 20px;
+}
+
+.design-system__content ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.design-system__content ul li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+}
+
+/* Style for links */
+.design-system__content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.design-system__content a:hover {
+  text-decoration: underline;
 }
