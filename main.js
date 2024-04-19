@@ -81,7 +81,7 @@ window.addEventListener('resize', () => {
 
   /*-----------Testimonial --------*/
   document.addEventListener("DOMContentLoaded", function () {
-    const testimonialCards = document.querySelectorAll(".testimonial_card");
+    const testimonialCards = document.querySelectorAll(".testimonial__card");
     const paginationDots = document.querySelectorAll(".pagination-dot");
 
     paginationDots.forEach((dot, index) => {
