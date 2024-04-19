@@ -39,7 +39,7 @@ for (i = 0; i < acc.length; i++) {
 
 
 /*---crouser in product section---- */
-const productContainers = [...document.querySelectorAll('.product_contanier')];
+const productContainers = [...document.querySelectorAll('.product__contanier')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 const preBtn = [...document.querySelectorAll('.pre-btn')];
 

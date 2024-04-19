@@ -492,7 +492,7 @@ p {
 
 .hero__text .cta-btn,
 .resourse__content .cta-btn,
-.aboutUs_content .cta-btn,
+.aboutUs__content .cta-btn,
 .cta-btn {
   display: inline-block;
   padding: 10px 20px;
@@ -506,7 +506,7 @@ p {
 
 .hero__text .cta-btn:hover,
 .resourse__content .cta-btn:hover,
-.aboutUs_content .cta-btn:hover,
+.aboutUs__content .cta-btn:hover,
 .cta-btn:hover {
   background-color: var(--clr-nuetral);
   color: var(--clr-accent);
@@ -520,21 +520,21 @@ p {
 
 /*---------------------Product ----------------*/
 /*-----------Best seller----------*/
-.product_card .product_image {
+.product__card .product__image {
   height: 250px;
   width: 250px;
 }
-.product_card .product_image img {
+.product__card .product__image img {
   height: 100%;
   border-radius: 4%;
 }
 
-.product_card {
+.product__card {
   flex: 0 0 auto;
   margin-right: 20px; /* Spacing between cards */
 }
 
-.product_image img {
+.product__image img {
   max-width: 100%;
   height: auto;
 }
@@ -545,7 +545,7 @@ p {
   padding: 20px;
 }
 
-.product_contanier {
+.product__contanier {
   padding: 0 5vw;
   display: flex;
   overflow-x: hidden;
@@ -587,10 +587,10 @@ p {
 .product-card {
   margin-right: 20px; /* Adjust margin between cards for smaller screens */
 }
-.product_discription {
+.product__discription {
   text-align: center;
 }
-.product_discription h3 {
+.product__discription h3 {
   font-size: var(--h4-size);
 }
 .product_cta,
@@ -660,7 +660,7 @@ p {
 .services {
   align-items: center;
 }
-.service--content {
+.service__content {
   border-radius: 4%;
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -674,17 +674,17 @@ p {
 .about__us {
   margin: 8% auto 5% auto;
 }
-.aboutUs_content {
+.aboutUs__content {
   margin: 0 10%;
 }
-.aboutUs_image img {
+.aboutUs__image img {
   border-radius: 4%;
 }
-.aboutUs_content-desktop {
+.aboutUs__content--desktop {
   display: none;
 }
-.aboutUs_content-dektop p,
-.aboutUs_content-dektop p {
+.aboutUs__content-dektop p,
+.aboutUs__content-dektop p {
   font-size: 16px;
 }
 /*----testimonial----*/
@@ -710,11 +710,11 @@ p {
   background-color: #555;
 }
 
-.testimonial_card {
+.testimonial__card {
   display: none;
 }
 
-.testimonial_card.active {
+.testimonial__card.active {
   display: block;
 }
 
@@ -728,7 +728,7 @@ p {
   background-color: var(--clr-nuetral-light);
 }
 
-.testimonial_card {
+.testimonial__card {
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
@@ -738,13 +738,13 @@ p {
   width: 300px;
   margin: 2% 5% 2% 5%;
 }
-.testimonial_card p {
+.testimonial__card p {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 10px;
 }
 
-.testimonial_card h3 {
+.testimonial__card h3 {
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
@@ -803,7 +803,7 @@ footer {
   text-align: center;
 }
 
-.footer_contact a {
+.footer__contact a {
   color: var(--clr-secondary-text);
 }
 .copyright p {
@@ -901,30 +901,30 @@ footer {
     margin-bottom: 20px; /* Adjust margin between items */
   }
   /*-----services---*/
-  .service--content {
+  .service__content {
     border-radius: 4%;
     height: 50vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
   }
   /*-----about us---*/
-  .aboutUs_image img{
+  .aboutUs__image img{
     width: 600px;
   }
-  .aboutUs_content {
+  .aboutUs__content {
     margin: auto auto auto 5%;
   }
-  .aboutUs_content-desktop {
+  .aboutUs__content--desktop {
     display: block;
   }
-  .aboutUs_content-mobile {
+  .aboutUs__content--mobile {
     display: none;
   }
   /*---testimonial--*/
   .pagination-dot {
     display: none;
   }
-  .testimonial_card {
+  .testimonial__card {
     display: block;
   }
   /*---Resorces--*/
