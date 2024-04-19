@@ -79,4 +79,26 @@ window.addEventListener('resize', () => {
   });
 
 
-  
+  /*-----------Testimonial --------*/
+  document.addEventListener("DOMContentLoaded", function () {
+    const testimonialCards = document.querySelectorAll(".testimonial_card");
+    const paginationDots = document.querySelectorAll(".pagination-dot");
+
+    paginationDots.forEach((dot, index) => {
+      dot.addEventListener("click", function () {
+        showCard(index);
+      });
+    });
+
+    function showCard(index) {
+      testimonialCards.forEach(card => {
+        card.classList.remove("active");
+      });
+      testimonialCards[index].classList.add("active");
+
+      paginationDots.forEach(dot => {
+        dot.classList.remove("active");
+      });
+      paginationDots[index].classList.add("active");
+    }
+  });
