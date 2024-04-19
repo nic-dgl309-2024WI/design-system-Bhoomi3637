@@ -17,7 +17,10 @@ p {
   margin: 0 auto 1rem; /* Centering paragraphs within the container and adding bottom margin */
 }
 .h1_mobile{
-  font-size: 24px;
+  font-size: 30px;
+}
+.h2_mobile{
+  font-size: 28px;
 }
 /*for active page*/
 .active {
@@ -181,6 +184,7 @@ p {
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 20px;
+  max-width: 300px;
 }
 /*------Breadcrumps-----*/
 ul.breadcrumb {
@@ -209,17 +213,28 @@ ul.breadcrumb li a:hover {
 pre {
   background-color: #f4f4f4;
   padding: 10px;
+  max-width: 100%;
   overflow-x: auto;
 }
 .footer img {
   width: 40px;
+}
+
+/*---form width--*/
+form{
+  width: 300px;
 }
 /*------accordian--*/
 
 /*====================================================Destktop===============================================================================*/
 @media only screen and (min-width: 768px) {
   .h1_desktop{
-    font-size: 32px;
+    font-size: 34px;
+  }
+  
+  
+  .h2_desktop{
+    font-size: 30px;
   }
   .top__navbar,
   .side__bar {
@@ -276,6 +291,16 @@ pre {
     display: block;
     margin: 0 auto 1rem;
   }
+
+  .code-container {
+    max-width: 600px;
+  }
+
+  /*---form width--*/
+form{
+  width: 700px;
+  height: 60vh;
+}
 }
 
 
@@ -334,4 +359,5 @@ pre {
 
 .design-system__content a:hover {
   text-decoration: underline;
+  
 }
